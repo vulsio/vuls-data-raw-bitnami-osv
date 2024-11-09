@@ -1,0 +1,81 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-jenkins-2020-2103",
+	"modified": "2024-03-06T11:25:28.861Z",
+	"published": "2024-03-06T11:06:30.583Z",
+	"aliases": [
+		"CVE-2020-2103",
+		"GHSA-4jjj-cm7q-v6hr"
+	],
+	"details": "Jenkins 2.218 and earlier, LTS 2.204.1 and earlier exposed session identifiers on a user's detail object in the whoAmI diagnostic page.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "jenkins",
+				"purl": "pkg:bitnami/jenkins"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.204.1"
+						},
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.218.0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/jenkins/BIT-jenkins-2020-2103.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "http://www.openwall.com/lists/oss-security/2020/01/29/1"
+		},
+		{
+			"type": "WEB",
+			"url": "https://access.redhat.com/errata/RHBA-2020:0402"
+		},
+		{
+			"type": "WEB",
+			"url": "https://access.redhat.com/errata/RHBA-2020:0675"
+		},
+		{
+			"type": "WEB",
+			"url": "https://access.redhat.com/errata/RHSA-2020:0681"
+		},
+		{
+			"type": "WEB",
+			"url": "https://access.redhat.com/errata/RHSA-2020:0683"
+		},
+		{
+			"type": "WEB",
+			"url": "https://jenkins.io/security/advisory/2020-01-29/#SECURITY-1695"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:-:*:*:*",
+			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
+		],
+		"severity": "Medium"
+	}
+}

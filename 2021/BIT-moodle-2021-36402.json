@@ -1,0 +1,66 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-moodle-2021-36402",
+	"modified": "2024-03-06T11:25:28.861Z",
+	"published": "2024-03-06T11:08:28.100Z",
+	"aliases": [
+		"CVE-2021-36402",
+		"GHSA-gv8f-43pg-c5qw"
+	],
+	"details": "In Moodle, Users' names required additional sanitizing in the account confirmation email, to prevent a self-registration phishing risk.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "moodle",
+				"purl": "pkg:bitnami/moodle"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.9.8"
+						},
+						{
+							"introduced": "3.10.0"
+						},
+						{
+							"fixed": "3.10.5"
+						},
+						{
+							"introduced": "3.11.0"
+						},
+						{
+							"fixed": "3.11.1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/moodle/BIT-moodle-2021-36402.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://moodle.org/mod/forum/discuss.php?d=424808"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:moodle:moodle:*:*:*:*:*:*:*:*"
+		],
+		"severity": "Medium"
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-consul-2024-10006",
+	"modified": "2024-11-04T16:11:56.256129Z",
+	"published": "2024-11-01T07:07:54.503Z",
+	"aliases": [
+		"CVE-2024-10006",
+		"GHSA-5c4w-8hhh-3c3h",
+		"GO-2024-3241"
+	],
+	"details": "A vulnerability was identified in Consul and Consul Enterprise (“Consul”) such that using Headers in L7 traffic intentions could bypass HTTP header based access rules.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "consul",
+				"purl": "pkg:bitnami/consul"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "1.9.0"
+						},
+						{
+							"fixed": "1.20.1"
+						},
+						{
+							"introduced": "1.20.0"
+						},
+						{
+							"fixed": "1.20.1"
+						},
+						{
+							"introduced": "1.19.0"
+						},
+						{
+							"fixed": "1.19.3"
+						},
+						{
+							"introduced": "1.16.0"
+						},
+						{
+							"fixed": "1.18.5"
+						},
+						{
+							"introduced": "1.9.0"
+						},
+						{
+							"fixed": "1.15.15"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/consul/BIT-consul-2024-10006.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://discuss.hashicorp.com/t/hcsec-2024-23-consul-l7-intentions-vulnerable-to-headers-bypass"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:hashicorp:consul:*:*:*:*:*:*:*:*",
+			"cpe:2.3:a:hashicorp:consul:*:*:*:*:enterprise:*:*:*",
+			"cpe:2.3:a:hashicorp:consul:*:*:*:*:*:go:*:*",
+			"cpe:2.3:a:hashicorp:consul:*:*:*:*:enterprise:go:*:*"
+		],
+		"severity": "High"
+	}
+}

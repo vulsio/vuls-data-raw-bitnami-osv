@@ -1,0 +1,66 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-mattermost-2023-1775",
+	"modified": "2024-03-06T11:25:28.861Z",
+	"published": "2024-03-06T11:02:33.383Z",
+	"aliases": [
+		"CVE-2023-1775",
+		"GHSA-8jhh-3jf2-pfwr"
+	],
+	"details": "When running in a High Availability configuration, Mattermost fails to sanitize some of the user_updated and post_deleted events broadcast to all users, leading to disclosure of sensitive information to some of the users with currently connected Websocket clients.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "mattermost",
+				"purl": "pkg:bitnami/mattermost"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.1.6"
+						}
+					]
+				},
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "7.7.1"
+						},
+						{
+							"last_affected": "7.7.1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/mattermost/BIT-mattermost-2023-1775.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://mattermost.com/security-updates/"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:mattermost:mattermost_server:*:*:*:*:*:*:*:*",
+			"cpe:2.3:a:mattermost:mattermost_server:7.7.1:*:*:*:*:*:*:*"
+		],
+		"severity": "Medium"
+	}
+}

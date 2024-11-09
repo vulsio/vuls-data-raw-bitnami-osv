@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-gitlab-2020-13337",
+	"modified": "2024-11-05T07:36:31.248Z",
+	"published": "2024-03-06T11:21:52.295Z",
+	"aliases": [
+		"CVE-2020-13337"
+	],
+	"details": "An issue has been discovered in GitLab affecting versions from 12.10 to 12.10.12 that allowed for a stored XSS payload to be added as a group name.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "gitlab",
+				"purl": "pkg:bitnami/gitlab"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "12.10.0"
+						},
+						{
+							"fixed": "12.10.13"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/gitlab/BIT-gitlab-2020-13337.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://gitlab.com/gitlab-org/cves/-/blob/master/2020/CVE-2020-13337.json"
+		},
+		{
+			"type": "WEB",
+			"url": "https://gitlab.com/gitlab-org/gitlab/-/issues/199049"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+			"cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
+			"cpe:2.3:a:gitlab:gitlab:*:*:*:*:*:*:*:*"
+		],
+		"severity": "Medium"
+	}
+}

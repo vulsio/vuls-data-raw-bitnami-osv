@@ -1,0 +1,53 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-node-2023-30582",
+	"modified": "2024-09-10T08:12:33.130805Z",
+	"published": "2024-09-10T07:19:56.526Z",
+	"aliases": [
+		"CVE-2023-30582"
+	],
+	"details": "A vulnerability has been identified in Node.js version 20, affecting users of the experimental permission model when the --allow-fs-read flag is used with a non-* argument. This flaw arises from an inadequate permission model that fails to restrict file watching through the fs.watchFile API. As a result, malicious actors can monitor files that they do not have explicit read access to.Please note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "node",
+				"purl": "pkg:bitnami/node"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "20.0.0"
+						},
+						{
+							"fixed": "20.3.1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/node/BIT-node-2023-30582.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://nodejs.org/en/blog/vulnerability/june-2023-security-releases"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*"
+		],
+		"severity": "Medium"
+	}
+}

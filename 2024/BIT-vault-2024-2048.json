@@ -1,0 +1,60 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-vault-2024-2048",
+	"modified": "2024-07-02T07:56:01.842Z",
+	"published": "2024-05-01T07:38:21.819Z",
+	"aliases": [
+		"CVE-2024-2048",
+		"GHSA-r3w7-mfpm-c2vw",
+		"GO-2024-2617"
+	],
+	"details": "Vault and Vault Enterprise (“Vault”) TLS certificate auth method did not correctly validate client certificates when configured with a non-CA certificate as trusted certificate. In this configuration, an attacker may be able to craft a malicious certificate that could be used to bypass authentication. Fixed in Vault 1.15.5 and 1.14.10.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "vault",
+				"purl": "pkg:bitnami/vault"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "1.15.5"
+						},
+						{
+							"fixed": "1.16.0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/vault/BIT-vault-2024-2048.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://discuss.hashicorp.com/t/hcsec-2024-05-vault-cert-auth-method-did-not-correctly-validate-non-ca-certificates/63382"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20240524-0009/"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:hashicorp:vault:*:*:*:*:*:*:*:*",
+			"cpe:2.3:a:hashicorp:vault:*:*:*:*:*:go:*:*"
+		],
+		"severity": "High"
+	}
+}

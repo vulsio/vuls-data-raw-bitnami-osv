@@ -1,0 +1,66 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-moodle-2024-34008",
+	"modified": "2024-07-19T08:11:45.232283Z",
+	"published": "2024-07-19T07:25:34.028Z",
+	"aliases": [
+		"CVE-2024-34008",
+		"GHSA-68x5-4jg5-gjgg"
+	],
+	"details": "Actions in the admin management of analytics models did not include the necessary token to prevent a CSRF risk.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "moodle",
+				"purl": "pkg:bitnami/moodle"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "4.0.0"
+						},
+						{
+							"fixed": "4.3.4"
+						},
+						{
+							"introduced": "4.1.0"
+						},
+						{
+							"fixed": "4.1.10"
+						},
+						{
+							"introduced": "4.2.0"
+						},
+						{
+							"fixed": "4.2.7"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/moodle/BIT-moodle-2024-34008.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://moodle.org/mod/forum/discuss.php?d=458397"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:moodle:moodle:*:*:*:*:*:*:*:*"
+		],
+		"severity": "High"
+	}
+}

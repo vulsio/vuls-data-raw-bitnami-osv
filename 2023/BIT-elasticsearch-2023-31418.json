@@ -1,0 +1,68 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-elasticsearch-2023-31418",
+	"modified": "2024-03-06T11:25:28.861Z",
+	"published": "2024-03-06T10:51:58.187Z",
+	"aliases": [
+		"CVE-2023-31418",
+		"GHSA-2cqf-6xv9-f22w"
+	],
+	"details": "An issue has been identified with how Elasticsearch handled incoming requests on the HTTP layer. An unauthenticated user could force an Elasticsearch node to exit with an OutOfMemory error by sending a moderate number of malformed HTTP requests. The issue was identified by Elastic Engineering and we have no indication that the issue is known or that it is being exploited in the wild.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "elasticsearch",
+				"purl": "pkg:bitnami/elasticsearch"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.17.12"
+						},
+						{
+							"introduced": "8.0.0"
+						},
+						{
+							"fixed": "8.8.2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/elasticsearch/BIT-elasticsearch-2023-31418.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://discuss.elastic.co/t/elasticsearch-8-9-0-7-17-13-security-update/343616"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20231130-0005/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.elastic.co/community/security"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
+		],
+		"severity": "High"
+	}
+}

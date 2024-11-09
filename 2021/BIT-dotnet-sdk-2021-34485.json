@@ -1,0 +1,55 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-dotnet-sdk-2021-34485",
+	"modified": "2024-03-06T11:25:28.861Z",
+	"published": "2024-03-06T10:59:26.926Z",
+	"aliases": [
+		"BIT-dotnet-2021-34485",
+		"CVE-2021-34485",
+		"GHSA-vgwq-hfqc-58wv"
+	],
+	"details": ".NET Core and Visual Studio Information Disclosure Vulnerability",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "dotnet-sdk",
+				"purl": "pkg:bitnami/dotnet-sdk"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "5.0.0"
+						},
+						{
+							"fixed": "5.0.8"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/dotnet-sdk/BIT-dotnet-sdk-2021-34485.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34485"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:microsoft:.net:*:*:*:*:*:*:*:*"
+		],
+		"severity": "Medium"
+	}
+}

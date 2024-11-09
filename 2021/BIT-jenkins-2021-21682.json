@@ -1,0 +1,65 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-jenkins-2021-21682",
+	"modified": "2024-03-06T11:25:28.861Z",
+	"published": "2024-03-06T11:01:30.901Z",
+	"aliases": [
+		"CVE-2021-21682",
+		"GHSA-6q4g-84f3-mw74"
+	],
+	"details": "Jenkins 2.314 and earlier, LTS 2.303.1 and earlier accepts names of jobs and other entities with a trailing dot character, potentially replacing the configuration and data of other entities on Windows.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "jenkins",
+				"purl": "pkg:bitnami/jenkins"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.303.1"
+						},
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.314.0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/jenkins/BIT-jenkins-2021-21682.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "http://www.openwall.com/lists/oss-security/2021/10/06/1"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.jenkins.io/security/advisory/2021-10-06/#SECURITY-2424"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:-:*:*:*",
+			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
+		],
+		"severity": "Medium"
+	}
+}

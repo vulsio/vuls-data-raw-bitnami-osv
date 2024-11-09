@@ -1,0 +1,137 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-discourse-2022-21678",
+	"modified": "2024-03-06T11:25:28.861Z",
+	"published": "2024-03-06T11:07:57.572Z",
+	"aliases": [
+		"CVE-2022-21678",
+		"GHSA-jwww-46gv-564m"
+	],
+	"details": "Discourse is an open source discussion platform. Prior to version 2.8.0.beta11 in the `tests-passed` branch, version 2.8.0.beta11 in the `beta` branch, and version 2.7.13 in the `stable` branch, the bios of users who made their profiles private were still visible in the `<meta>` tags on their users' pages. The problem is patched in `tests-passed` version 2.8.0.beta11, `beta` version 2.8.0.beta11, and `stable` version 2.7.13 of Discourse.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "discourse",
+				"purl": "pkg:bitnami/discourse"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.7.13"
+						}
+					]
+				},
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "2.8.0-beta1"
+						},
+						{
+							"last_affected": "2.8.0-beta1"
+						},
+						{
+							"introduced": "2.8.0-beta10"
+						},
+						{
+							"last_affected": "2.8.0-beta10"
+						},
+						{
+							"introduced": "2.8.0-beta2"
+						},
+						{
+							"last_affected": "2.8.0-beta2"
+						},
+						{
+							"introduced": "2.8.0-beta3"
+						},
+						{
+							"last_affected": "2.8.0-beta3"
+						},
+						{
+							"introduced": "2.8.0-beta4"
+						},
+						{
+							"last_affected": "2.8.0-beta4"
+						},
+						{
+							"introduced": "2.8.0-beta5"
+						},
+						{
+							"last_affected": "2.8.0-beta5"
+						},
+						{
+							"introduced": "2.8.0-beta6"
+						},
+						{
+							"last_affected": "2.8.0-beta6"
+						},
+						{
+							"introduced": "2.8.0-beta7"
+						},
+						{
+							"last_affected": "2.8.0-beta7"
+						},
+						{
+							"introduced": "2.8.0-beta8"
+						},
+						{
+							"last_affected": "2.8.0-beta8"
+						},
+						{
+							"introduced": "2.8.0-beta9"
+						},
+						{
+							"last_affected": "2.8.0-beta9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/discourse/BIT-discourse-2022-21678.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://github.com/discourse/discourse/commit/5e2e178fcfb490c37b9f8bb9f737185441b1d6de"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/discourse/discourse/commit/c0bb775f3f35b1b0d04a5b2a984f57c3e39f9e6c"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/discourse/discourse/security/advisories/GHSA-jwww-46gv-564m"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:discourse:discourse:*:*:*:*:*:*:*:*",
+			"cpe:2.3:a:discourse:discourse:2.8.0:beta10:*:*:*:*:*:*",
+			"cpe:2.3:a:discourse:discourse:2.8.0:beta1:*:*:*:*:*:*",
+			"cpe:2.3:a:discourse:discourse:2.8.0:beta2:*:*:*:*:*:*",
+			"cpe:2.3:a:discourse:discourse:2.8.0:beta3:*:*:*:*:*:*",
+			"cpe:2.3:a:discourse:discourse:2.8.0:beta4:*:*:*:*:*:*",
+			"cpe:2.3:a:discourse:discourse:2.8.0:beta5:*:*:*:*:*:*",
+			"cpe:2.3:a:discourse:discourse:2.8.0:beta6:*:*:*:*:*:*",
+			"cpe:2.3:a:discourse:discourse:2.8.0:beta7:*:*:*:*:*:*",
+			"cpe:2.3:a:discourse:discourse:2.8.0:beta8:*:*:*:*:*:*",
+			"cpe:2.3:a:discourse:discourse:2.8.0:beta9:*:*:*:*:*:*"
+		],
+		"severity": "Medium"
+	}
+}

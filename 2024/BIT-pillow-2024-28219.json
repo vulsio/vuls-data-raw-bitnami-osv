@@ -1,0 +1,62 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-pillow-2024-28219",
+	"modified": "2024-07-02T08:12:22.814550Z",
+	"published": "2024-07-02T07:31:57.223Z",
+	"aliases": [
+		"CVE-2024-28219",
+		"GHSA-44wm-f244-xhp3"
+	],
+	"details": "In _imagingcms.c in Pillow before 10.3.0, a buffer overflow exists because strcpy is used instead of strncpy.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "pillow",
+				"purl": "pkg:bitnami/pillow"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "10.3.0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/pillow/BIT-pillow-2024-28219.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://lists.debian.org/debian-lts-announce/2024/04/msg00008.html"
+		},
+		{
+			"type": "WEB",
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4XLPUT3VK4GQ6EVY525TT2QNUIXNRU5M/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://pillow.readthedocs.io/en/stable/releasenotes/10.3.0.html#security"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:python:pillow:*:*:*:*:*:python:*:*"
+		],
+		"severity": "Medium"
+	}
+}

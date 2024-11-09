@@ -1,0 +1,57 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-openldap-2020-25692",
+	"modified": "2024-03-06T11:25:28.861Z",
+	"published": "2024-03-06T11:02:23.500Z",
+	"aliases": [
+		"CVE-2020-25692"
+	],
+	"details": "A NULL pointer dereference was found in OpenLDAP server and was fixed in openldap 2.4.55, during a request for renaming RDNs. An unauthenticated attacker could remotely crash the slapd process by sending a specially crafted request, causing a Denial of Service.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "openldap",
+				"purl": "pkg:bitnami/openldap"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.4.55"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/openldap/BIT-openldap-2020-25692.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://bugzilla.redhat.com/show_bug.cgi?id=1894567"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20210108-0006/"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:openldap:openldap:*:*:*:*:*:*:*:*"
+		],
+		"severity": "High"
+	}
+}

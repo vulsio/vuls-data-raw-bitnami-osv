@@ -1,0 +1,65 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-jenkins-2021-21683",
+	"modified": "2024-03-06T11:25:28.861Z",
+	"published": "2024-03-06T11:01:19.568Z",
+	"aliases": [
+		"CVE-2021-21683",
+		"GHSA-4pw5-r58h-fv24"
+	],
+	"details": "The file browser in Jenkins 2.314 and earlier, LTS 2.303.1 and earlier may interpret some paths to files as absolute on Windows, resulting in a path traversal vulnerability allowing attackers with Overall/Read permission (Windows controller) or Job/Workspace permission (Windows agents) to obtain the contents of arbitrary files.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "jenkins",
+				"purl": "pkg:bitnami/jenkins"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.303.1"
+						},
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.314.0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/jenkins/BIT-jenkins-2021-21683.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "http://www.openwall.com/lists/oss-security/2021/10/06/1"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.jenkins.io/security/advisory/2021-10-06/#SECURITY-2481"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:-:*:*:*",
+			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
+		],
+		"severity": "Medium"
+	}
+}

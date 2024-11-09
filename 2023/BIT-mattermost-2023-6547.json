@@ -1,0 +1,59 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-mattermost-2023-6547",
+	"modified": "2024-03-06T11:25:28.861Z",
+	"published": "2024-03-06T10:56:43.005Z",
+	"aliases": [
+		"CVE-2023-6547"
+	],
+	"details": "Mattermost fails to validate team membership when a user attempts to access a playbook, allowing a user with permissions to a playbook but no permissions to the team the playbook is on to access and modify the playbook. This can happen if the user was once a member of the team, got permissions to the playbook and was then removed from the team. ",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "mattermost",
+				"purl": "pkg:bitnami/mattermost"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "8.1.5"
+						},
+						{
+							"introduced": "9.2.0"
+						},
+						{
+							"fixed": "9.2.1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/mattermost/BIT-mattermost-2023-6547.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://mattermost.com/security-updates"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:mattermost:mattermost_server:*:*:*:*:*:*:*:*"
+		],
+		"severity": "Medium"
+	}
+}

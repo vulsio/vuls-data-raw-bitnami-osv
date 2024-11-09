@@ -1,0 +1,57 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-hyperledger-fabric-peer-2024-45244",
+	"modified": "2024-09-13T07:57:00.697808Z",
+	"published": "2024-09-13T07:06:32.870Z",
+	"aliases": [
+		"BIT-hyperledger-fabric-orderer-2024-45244",
+		"BIT-hyperledger-fabric-tools-2024-45244",
+		"CVE-2024-45244",
+		"GHSA-48gg-32q2-4r6m",
+		"GO-2024-3099"
+	],
+	"details": "Hyperledger Fabric through 2.5.9 does not verify that a request has a timestamp within the expected time window.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "hyperledger-fabric-peer",
+				"purl": "pkg:bitnami/hyperledger-fabric-peer"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.5.9"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/hyperledger-fabric-peer/BIT-hyperledger-fabric-peer-2024-45244.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://github.com/hyperledger/fabric/commit/155457a6624b3c74b22e5729c35c8499bfe952cd"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:hyperledger:fabric:*:*:*:*:*:*:*:*"
+		],
+		"severity": "Medium"
+	}
+}

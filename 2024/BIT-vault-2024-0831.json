@@ -1,0 +1,64 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-vault-2024-0831",
+	"modified": "2024-06-28T15:58:32.020023Z",
+	"published": "2024-03-06T11:07:52.877Z",
+	"aliases": [
+		"CVE-2024-0831",
+		"GHSA-vgh3-mwxq-rcp8",
+		"GO-2024-2511"
+	],
+	"details": "Vault and Vault Enterprise (“Vault”) may expose sensitive information when enabling an audit device which specifies the `log_raw` option, which may log sensitive information to other audit devices, regardless of whether they are configured to use `log_raw`.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "vault",
+				"purl": "pkg:bitnami/vault"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "1.15.0"
+						},
+						{
+							"fixed": "1.15.5"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/vault/BIT-vault-2024-0831.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://developer.hashicorp.com/vault/docs/upgrading/upgrade-to-1.15.x#audit-devices-could-log-raw-data-despite-configuration"
+		},
+		{
+			"type": "WEB",
+			"url": "https://discuss.hashicorp.com/t/hcsec-2024-01-vault-may-expose-sensitive-information-when-configuring-an-audit-log-device/62311"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20240223-0005/"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:hashicorp:vault:*:*:*:*:*:*:*:*",
+			"cpe:2.3:a:hashicorp:vault:*:*:*:*:enterprise:*:*:*"
+		],
+		"severity": "Medium"
+	}
+}

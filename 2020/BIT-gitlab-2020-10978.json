@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-gitlab-2020-10978",
+	"modified": "2024-03-06T11:25:28.861Z",
+	"published": "2024-03-06T11:23:35.522Z",
+	"aliases": [
+		"CVE-2020-10978"
+	],
+	"details": "GitLab EE/CE 8.11 to 12.9 is leaking information on Issues opened in a public project and then moved to a private project through Web-UI and GraphQL API.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "gitlab",
+				"purl": "pkg:bitnami/gitlab"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "8.11.0"
+						},
+						{
+							"fixed": "12.9.0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/gitlab/BIT-gitlab-2020-10978.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://about.gitlab.com/releases/2020/03/26/security-release-12-dot-9-dot-1-released/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://about.gitlab.com/releases/categories/releases/"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
+			"cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*"
+		],
+		"severity": "Medium"
+	}
+}

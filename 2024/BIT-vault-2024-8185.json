@@ -1,0 +1,74 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-vault-2024-8185",
+	"modified": "2024-11-02T07:57:20.393133Z",
+	"published": "2024-11-02T07:20:15.411Z",
+	"aliases": [
+		"CVE-2024-8185",
+		"GHSA-g233-2p4r-3q7v",
+		"GO-2024-3246"
+	],
+	"details": "Vault Community and Vault Enterprise (“Vault”) clusters using Vault’s Integrated Storage backend are vulnerable to a denial-of-service (DoS) attack through memory exhaustion through a Raft cluster join API endpoint . An attacker may send a large volume of requests to the endpoint which may cause Vault to consume excessive system memory resources, potentially leading to a crash of the underlying system and the Vault process itself.This vulnerability, CVE-2024-8185, is fixed in Vault Community 1.18.1 and Vault Enterprise 1.18.1, 1.17.8, and 1.16.12.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "vault",
+				"purl": "pkg:bitnami/vault"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "1.2.0"
+						},
+						{
+							"fixed": "1.18.1"
+						},
+						{
+							"introduced": "1.18.0"
+						},
+						{
+							"fixed": "1.18.1"
+						},
+						{
+							"introduced": "1.17.0"
+						},
+						{
+							"fixed": "1.17.8"
+						},
+						{
+							"introduced": "1.2.0"
+						},
+						{
+							"fixed": "1.16.12"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/vault/BIT-vault-2024-8185.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://discuss.hashicorp.com/t/hcsec-2024-26-vault-vulnerable-to-denial-of-service-through-memory-exhaustion-when-processing-raft-cluster-join-requests/71047"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:hashicorp:vault:*:*:*:*:*:go:*:*",
+			"cpe:2.3:a:hashicorp:vault:*:*:*:*:enterprise:go:*:*"
+		],
+		"severity": "High"
+	}
+}

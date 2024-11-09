@@ -1,0 +1,61 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-dotnet-2022-24464",
+	"modified": "2024-03-06T11:25:28.861Z",
+	"published": "2024-03-06T10:58:33.275Z",
+	"aliases": [
+		"BIT-dotnet-sdk-2022-24464",
+		"CVE-2022-24464",
+		"GHSA-cw98-9j8w-wxv9"
+	],
+	"details": ".NET and Visual Studio Denial of Service Vulnerability",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "dotnet",
+				"purl": "pkg:bitnami/dotnet"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "5.0.0"
+						},
+						{
+							"fixed": "5.0.14"
+						},
+						{
+							"introduced": "6.0.0"
+						},
+						{
+							"fixed": "6.0.2"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/dotnet/BIT-dotnet-2022-24464.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-24464"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:microsoft:.net:*:*:*:*:*:*:*:*"
+		],
+		"severity": "High"
+	}
+}

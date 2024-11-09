@@ -1,0 +1,56 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-mlflow-2024-37060",
+	"modified": "2024-10-22T05:29:01.306909Z",
+	"published": "2024-06-08T07:24:57.709Z",
+	"aliases": [
+		"CGA-cpj6-2jgp-w82g",
+		"CVE-2024-37060",
+		"GHSA-cv6c-7963-wxcg"
+	],
+	"details": "Deserialization of untrusted data can occur in versions of the MLflow platform running version 1.27.0 or newer, enabling a maliciously crafted Recipe to execute arbitrary code on an end user’s system when run.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "mlflow",
+				"purl": "pkg:bitnami/mlflow"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "1.27.0"
+						},
+						{
+							"fixed": "2.13.1"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/mlflow/BIT-mlflow-2024-37060.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://hiddenlayer.com/sai-security-advisory/mlflow-june2024"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:lfprojects:mlflow:*:*:*:*:*:*:*:*",
+			"cpe:2.3:a:lfprojects:mlflow:*:*:*:*:*:python:*:*"
+		],
+		"severity": "High"
+	}
+}

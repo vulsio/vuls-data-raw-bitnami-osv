@@ -1,0 +1,54 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-odoo-2021-44460",
+	"modified": "2024-03-06T11:25:28.861Z",
+	"published": "2024-03-06T11:00:30.938Z",
+	"aliases": [
+		"CVE-2021-44460"
+	],
+	"details": "Improper access control in Odoo Community 13.0 and earlier and Odoo Enterprise 13.0 and earlier allows users with deactivated accounts to access the system with the deactivated account and any permission it still holds, via crafted RPC requests.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "odoo",
+				"purl": "pkg:bitnami/odoo"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "13.0.0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/odoo/BIT-odoo-2021-44460.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://github.com/odoo/odoo/issues/107685"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:odoo:odoo:*:*:*:*:community:*:*:*",
+			"cpe:2.3:a:odoo:odoo:*:*:*:*:enterprise:*:*:*"
+		],
+		"severity": "Medium"
+	}
+}

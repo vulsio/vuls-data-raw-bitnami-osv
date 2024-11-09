@@ -1,0 +1,58 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-odoo-2021-45111",
+	"modified": "2024-03-06T11:25:28.861Z",
+	"published": "2024-03-06T10:59:14.505Z",
+	"aliases": [
+		"CVE-2021-45111"
+	],
+	"details": "Improper access control in Odoo Community 15.0 and earlier and Odoo Enterprise 15.0 and earlier allows remote authenticated users to trigger the creation of demonstration data, including user accounts with known credentials.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "odoo",
+				"purl": "pkg:bitnami/odoo"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "15.0.0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/odoo/BIT-odoo-2021-45111.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://github.com/odoo/odoo/issues/107683"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.debian.org/security/2023/dsa-5399"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:odoo:odoo:*:*:*:*:community:*:*:*",
+			"cpe:2.3:a:odoo:odoo:*:*:*:*:enterprise:*:*:*"
+		],
+		"severity": "High"
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-phpmailer-2021-34551",
+	"modified": "2024-03-06T11:25:28.861Z",
+	"published": "2024-03-06T11:01:38.365Z",
+	"aliases": [
+		"CVE-2021-34551",
+		"GHSA-7q44-r25x-wm4q"
+	],
+	"details": "PHPMailer before 6.5.0 on Windows allows remote code execution if lang_path is untrusted data and has a UNC pathname.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "phpmailer",
+				"purl": "pkg:bitnami/phpmailer"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.5.0"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/phpmailer/BIT-phpmailer-2021-34551.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://github.com/PHPMailer/PHPMailer/blob/master/SECURITY.md"
+		},
+		{
+			"type": "WEB",
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YRMWGA4VTMXFB22KICMB7YMFZNFV3EJ/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FJYSOFCUBS67J3TKR74SD3C454N7VTYM/"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:phpmailer_project:phpmailer:*:*:*:*:*:*:*:*"
+		],
+		"severity": "High"
+	}
+}
