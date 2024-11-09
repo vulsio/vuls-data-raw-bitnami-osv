@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-consul-2024-10005",
-	"modified": "2024-11-04T16:11:59.240318Z",
+	"modified": "2024-11-09T07:38:29.950Z",
 	"published": "2024-11-01T07:08:02.109Z",
 	"aliases": [
 		"CVE-2024-10005",
@@ -19,7 +19,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:N"
 				}
 			],
 			"ranges": [
@@ -77,6 +77,6 @@
 			"cpe:2.3:a:hashicorp:consul:*:*:*:*:*:go:*:*",
 			"cpe:2.3:a:hashicorp:consul:*:*:*:*:enterprise:go:*:*"
 		],
-		"severity": "High"
+		"severity": "Medium"
 	}
 }
