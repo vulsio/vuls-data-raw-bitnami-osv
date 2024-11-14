@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-suitecrm-2024-50332",
-	"modified": "2024-11-07T07:57:11.828021Z",
+	"modified": "2024-11-14T07:57:11.857144Z",
 	"published": "2024-11-07T07:19:36.273Z",
 	"aliases": [
-		"CVE-2024-50332"
+		"CVE-2024-50332",
+		"GHSA-53xh-mjmq-j35p"
 	],
 	"details": "SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. Insufficient input value validation causes Blind SQL injection in DeleteRelationShip. This issue has been addressed in versions 7.14.6 and 8.7.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
 	"affected": [
