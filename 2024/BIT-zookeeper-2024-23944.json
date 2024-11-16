@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-zookeeper-2024-23944",
-	"modified": "2024-07-18T07:56:34.499Z",
+	"modified": "2024-11-16T07:36:37.319Z",
 	"published": "2024-03-31T18:32:55.925Z",
 	"aliases": [
 		"CVE-2024-23944",
@@ -15,6 +15,12 @@
 				"name": "zookeeper",
 				"purl": "pkg:bitnami/zookeeper"
 			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+				}
+			],
 			"ranges": [
 				{
 					"type": "SEMVER",
@@ -54,6 +60,6 @@
 			"cpe:2.3:a:apache:zookeeper:*:*:*:*:*:*:*:*",
 			"cpe:2.3:a:apache:zookeeper:*:*:*:*:*:maven:*:*"
 		],
-		"severity": "Unknown"
+		"severity": "Medium"
 	}
 }
