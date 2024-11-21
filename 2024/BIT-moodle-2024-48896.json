@@ -1,0 +1,72 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-moodle-2024-48896",
+	"modified": "2024-11-21T07:56:53.627021Z",
+	"published": "2024-11-21T07:13:38.787Z",
+	"aliases": [
+		"CVE-2024-48896",
+		"GHSA-cq5f-wv7p-5gfc"
+	],
+	"details": "A vulnerability was found in Moodle. It is possible for users with the \"send message\" capability to view other users' names that they may not otherwise have access to via an error message in Messaging. Note: The name returned follows the full name format configured on the site.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "moodle",
+				"purl": "pkg:bitnami/moodle"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.1.14"
+						},
+						{
+							"introduced": "4.2.0"
+						},
+						{
+							"fixed": "4.2.11"
+						},
+						{
+							"introduced": "4.3.0"
+						},
+						{
+							"fixed": "4.3.8"
+						},
+						{
+							"introduced": "4.4.0"
+						},
+						{
+							"fixed": "4.4.4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/moodle/BIT-moodle-2024-48896.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2318822"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:moodle:moodle:*:*:*:*:*:*:*:*"
+		],
+		"severity": "Medium"
+	}
+}

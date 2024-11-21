@@ -1,0 +1,72 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-moodle-2024-48897",
+	"modified": "2024-11-21T07:56:55.312069Z",
+	"published": "2024-11-21T07:13:31.891Z",
+	"aliases": [
+		"CVE-2024-48897",
+		"GHSA-x3x9-349x-2485"
+	],
+	"details": "A vulnerability was found in Moodle. Additional checks are required to ensure users can only edit or delete RSS feeds that they have permission to modify.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "moodle",
+				"purl": "pkg:bitnami/moodle"
+			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
+				}
+			],
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.1.14"
+						},
+						{
+							"introduced": "4.2.0"
+						},
+						{
+							"fixed": "4.2.11"
+						},
+						{
+							"introduced": "4.3.0"
+						},
+						{
+							"fixed": "4.3.8"
+						},
+						{
+							"introduced": "4.4.0"
+						},
+						{
+							"fixed": "4.4.4"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/moodle/BIT-moodle-2024-48897.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2318821"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:moodle:moodle:*:*:*:*:*:*:*:*"
+		],
+		"severity": "Medium"
+	}
+}
