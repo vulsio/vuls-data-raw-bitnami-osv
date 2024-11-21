@@ -1,11 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-pillow-2022-30595",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2024-11-21T14:56:54.680460Z",
 	"published": "2024-03-06T11:02:11.506Z",
 	"aliases": [
 		"CVE-2022-30595",
-		"GHSA-hr8g-f6r6-mr22"
+		"GHSA-hr8g-f6r6-mr22",
+		"PYSEC-2022-43145"
 	],
 	"details": "libImaging/TgaRleDecode.c in Pillow 9.1.0 has a heap buffer overflow in the processing of invalid TGA image files.",
 	"affected": [

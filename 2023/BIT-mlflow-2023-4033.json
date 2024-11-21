@@ -1,11 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-mlflow-2023-4033",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2024-11-21T14:56:53.572857Z",
 	"published": "2024-03-06T10:58:27.677Z",
 	"aliases": [
 		"CVE-2023-4033",
-		"GHSA-ffw3-6378-cqgp"
+		"GHSA-ffw3-6378-cqgp",
+		"PYSEC-2023-280"
 	],
 	"details": "OS Command Injection in GitHub repository mlflow/mlflow prior to 2.6.0.",
 	"affected": [
