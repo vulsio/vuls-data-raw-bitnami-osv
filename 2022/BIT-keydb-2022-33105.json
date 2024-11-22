@@ -1,13 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-keydb-2022-33105",
-	"modified": "2024-11-21T14:56:57.468780Z",
+	"modified": "2024-11-22T05:12:13.826566Z",
 	"published": "2024-08-22T19:26:31.054Z",
 	"aliases": [
 		"BIT-redis-2022-33105",
 		"BIT-valkey-2022-33105",
-		"CVE-2022-33105",
-		"PYSEC-2022-43162"
+		"CVE-2022-33105"
 	],
 	"details": "Redis v7.0 was discovered to contain a memory leak via the component streamGetEdgeID.",
 	"affected": [
