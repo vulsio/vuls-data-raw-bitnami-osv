@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-dotnet-2024-30045",
-	"modified": "2024-06-04T10:56:37.302991Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-06-04T09:39:07.406Z",
 	"aliases": [
 		"BIT-dotnet-sdk-2024-30045",
@@ -50,6 +50,10 @@
 		{
 			"type": "WEB",
 			"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30045"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20241122-0001/"
 		}
 	],
 	"database_specific": {

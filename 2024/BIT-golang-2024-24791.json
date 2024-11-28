@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-golang-2024-24791",
-	"modified": "2024-07-15T22:26:59.152Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-07-04T07:19:32.455Z",
 	"aliases": [
 		"CVE-2024-24791",
@@ -61,6 +61,10 @@
 		{
 			"type": "WEB",
 			"url": "https://pkg.go.dev/vuln/GO-2024-2963"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20241004-0004/"
 		}
 	],
 	"database_specific": {

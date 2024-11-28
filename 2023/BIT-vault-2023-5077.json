@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-vault-2023-5077",
-	"modified": "2024-08-21T14:56:58.896874Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T11:08:23.375Z",
 	"aliases": [
 		"CVE-2023-5077",
@@ -19,7 +19,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+					"score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H"
 				}
 			],
 			"ranges": [

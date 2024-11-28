@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-rabbitmq-2021-32719",
-	"modified": "2024-09-18T03:26:48.487131Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T11:03:23.676Z",
 	"aliases": [
 		"CVE-2021-32719",
@@ -18,7 +18,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
+					"score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:N"
 				}
 			],
 			"ranges": [
@@ -57,6 +57,6 @@
 		"cpes": [
 			"cpe:2.3:a:vmware:rabbitmq:*:*:*:*:*:*:*:*"
 		],
-		"severity": "Medium"
+		"severity": "Low"
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-golang-2024-24790",
-	"modified": "2024-10-22T05:28:58.836290Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-06-07T07:18:59.012Z",
 	"aliases": [
 		"CGA-2fq6-p83q-pm8x",
@@ -67,6 +67,10 @@
 		{
 			"type": "WEB",
 			"url": "http://www.openwall.com/lists/oss-security/2024/06/04/1"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20240905-0002/"
 		}
 	],
 	"database_specific": {

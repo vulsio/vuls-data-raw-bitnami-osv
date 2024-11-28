@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-airflow-2024-41937",
-	"modified": "2024-08-26T08:55:25.134Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-08-23T07:16:07.397Z",
 	"aliases": [
 		"CVE-2024-41937",
@@ -47,6 +47,10 @@
 		{
 			"type": "WEB",
 			"url": "https://lists.apache.org/thread/lwlmgg6hqfmkpvw5py4w53hxyl37jl6d"
+		},
+		{
+			"type": "WEB",
+			"url": "http://www.openwall.com/lists/oss-security/2024/08/21/3"
 		}
 	],
 	"database_specific": {

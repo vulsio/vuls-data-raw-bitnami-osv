@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-grafana-2022-39201",
-	"modified": "2024-06-10T17:13:35.382080Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T10:55:22.080Z",
 	"aliases": [
 		"CVE-2022-39201",
@@ -19,7 +19,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+					"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H"
 				}
 			],
 			"ranges": [
@@ -115,6 +115,6 @@
 			"cpe:2.3:a:grafana:grafana:5.0.0:beta4:*:*:*:*:*:*",
 			"cpe:2.3:a:grafana:grafana:5.0.0:beta5:*:*:*:*:*:*"
 		],
-		"severity": "High"
+		"severity": "Medium"
 	}
 }

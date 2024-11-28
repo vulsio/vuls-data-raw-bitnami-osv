@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-postgresql-2024-10979",
-	"modified": "2024-11-16T07:59:17.326223Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-11-16T07:16:38.797Z",
 	"aliases": [
 		"CVE-2024-10979"
@@ -72,6 +72,10 @@
 		{
 			"type": "WEB",
 			"url": "https://www.postgresql.org/support/security/CVE-2024-10979/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/fmora50591/postgresql-env-vuln/blob/main/README.md"
 		}
 	],
 	"database_specific": {

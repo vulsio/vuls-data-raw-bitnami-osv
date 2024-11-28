@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-postgresql-jdbc-driver-2022-21724",
-	"modified": "2024-10-22T05:29:07.070462Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T11:02:31.977Z",
 	"aliases": [
 		"CGA-63j7-vh89-wc5p",
@@ -19,7 +19,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+					"score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
 				}
 			],
 			"ranges": [
@@ -88,6 +88,6 @@
 			"cpe:2.3:a:postgresql:postgresql_jdbc_driver:*:*:*:*:*:*:*:*",
 			"cpe:2.3:a:postgresql:postgresql_jdbc_driver:42.3.2:rc1:*:*:*:*:*:*"
 		],
-		"severity": "Critical"
+		"severity": "High"
 	}
 }

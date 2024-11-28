@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-prestashop-2023-30839",
-	"modified": "2024-03-06T12:28:13.998275Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T11:04:31.009Z",
 	"aliases": [
 		"CVE-2023-30839",
@@ -18,7 +18,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
 				}
 			],
 			"ranges": [
@@ -57,6 +57,6 @@
 		"cpes": [
 			"cpe:2.3:a:prestashop:prestashop:*:*:*:*:*:*:*:*"
 		],
-		"severity": "High"
+		"severity": "Critical"
 	}
 }

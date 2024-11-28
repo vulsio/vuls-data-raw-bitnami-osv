@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-airflow-2024-25142",
-	"modified": "2024-07-15T21:59:56.795737Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-06-18T07:17:29.631Z",
 	"aliases": [
 		"CVE-2024-25142",
@@ -41,6 +41,10 @@
 		{
 			"type": "WEB",
 			"url": "https://lists.apache.org/thread/cg1j28lk0fhzthk0of1g7vy7p2n1j7nr"
+		},
+		{
+			"type": "WEB",
+			"url": "http://www.openwall.com/lists/oss-security/2024/06/13/1"
 		}
 	],
 	"database_specific": {

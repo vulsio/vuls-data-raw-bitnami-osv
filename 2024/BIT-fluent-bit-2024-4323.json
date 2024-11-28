@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-fluent-bit-2024-4323",
-	"modified": "2024-05-24T12:12:47.719254Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-05-24T07:17:42.946Z",
 	"aliases": [
 		"CVE-2024-4323"
@@ -46,6 +46,10 @@
 		{
 			"type": "WEB",
 			"url": "https://tenable.com/security/research/tra-2024-17"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.vicarius.io/vsociety/posts/linguistic-lumberjack-memory-corruption-in-fluent-bit-cve-2024-4323"
 		}
 	],
 	"database_specific": {

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2023-39333",
-	"modified": "2024-09-10T08:12:33.453182Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-09-10T07:16:15.926Z",
 	"aliases": [
 		"CVE-2023-39333"
@@ -48,6 +48,14 @@
 		{
 			"type": "WEB",
 			"url": "https://nodejs.org/en/blog/vulnerability/october-2023-security-releases"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20240808-0004/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20241004-0006/"
 		}
 	],
 	"database_specific": {

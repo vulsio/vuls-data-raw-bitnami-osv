@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-gitlab-2024-8124",
-	"modified": "2024-11-05T07:36:31.248Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-09-14T07:06:46.628Z",
 	"aliases": [
 		"CVE-2024-8124"
@@ -58,6 +58,10 @@
 		{
 			"type": "WEB",
 			"url": "https://hackerone.com/reports/2634880"
+		},
+		{
+			"type": "WEB",
+			"url": "https://about.gitlab.com/releases/2024/09/11/patch-release-gitlab-17-3-2-released/"
 		}
 	],
 	"database_specific": {

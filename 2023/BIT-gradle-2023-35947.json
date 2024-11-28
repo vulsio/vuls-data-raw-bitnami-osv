@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-gradle-2023-35947",
-	"modified": "2024-08-01T05:41:46.027081Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T10:52:56.608Z",
 	"aliases": [
 		"CVE-2023-35947",
@@ -18,7 +18,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+					"score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:L/I:H/A:L"
 				}
 			],
 			"ranges": [
@@ -67,6 +67,6 @@
 		"cpes": [
 			"cpe:2.3:a:gradle:gradle:*:*:*:*:*:*:*:*"
 		],
-		"severity": "High"
+		"severity": "Medium"
 	}
 }

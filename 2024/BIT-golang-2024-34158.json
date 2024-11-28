@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-golang-2024-34158",
-	"modified": "2024-09-10T08:12:21.518996Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-09-10T07:06:15.527Z",
 	"aliases": [
 		"CVE-2024-34158",
@@ -61,6 +61,10 @@
 		{
 			"type": "WEB",
 			"url": "https://pkg.go.dev/vuln/GO-2024-3107"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20241004-0003/"
 		}
 	],
 	"database_specific": {

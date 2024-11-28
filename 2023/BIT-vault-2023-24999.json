@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-vault-2023-24999",
-	"modified": "2024-08-20T20:58:52.464265Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T11:09:14.286Z",
 	"aliases": [
 		"CVE-2023-24999",
@@ -19,7 +19,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H"
+					"score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H"
 				}
 			],
 			"ranges": [
@@ -67,6 +67,6 @@
 			"cpe:2.3:a:hashicorp:vault:*:*:*:*:-:*:*:*",
 			"cpe:2.3:a:hashicorp:vault:*:*:*:*:enterprise:*:*:*"
 		],
-		"severity": "High"
+		"severity": "Medium"
 	}
 }

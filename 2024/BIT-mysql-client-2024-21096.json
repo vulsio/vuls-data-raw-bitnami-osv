@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-mysql-client-2024-21096",
-	"modified": "2024-10-05T08:12:06.655126Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-10-05T07:10:52.330Z",
 	"aliases": [
 		"BIT-mariadb-2024-21096",
@@ -91,6 +91,10 @@
 		{
 			"type": "WEB",
 			"url": "https://www.oracle.com/security-alerts/cpuapr2024.html"
+		},
+		{
+			"type": "WEB",
+			"url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00034.html"
 		}
 	],
 	"database_specific": {

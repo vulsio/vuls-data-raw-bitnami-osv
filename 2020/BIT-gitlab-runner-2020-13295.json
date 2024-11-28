@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-gitlab-runner-2020-13295",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T10:52:36.068Z",
 	"aliases": [
 		"CVE-2020-13295"
@@ -17,7 +17,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
 				}
 			],
 			"ranges": [
@@ -68,6 +68,6 @@
 		"cpes": [
 			"cpe:2.3:a:gitlab:runner:*:*:*:*:*:*:*:*"
 		],
-		"severity": "High"
+		"severity": "Medium"
 	}
 }

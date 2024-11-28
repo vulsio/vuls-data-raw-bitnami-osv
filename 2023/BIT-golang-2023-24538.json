@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-golang-2023-24538",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T10:56:31.898Z",
 	"aliases": [
 		"CVE-2023-24538",
@@ -65,6 +65,10 @@
 		{
 			"type": "WEB",
 			"url": "https://security.gentoo.org/glsa/202311-09"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20241115-0007/"
 		}
 	],
 	"database_specific": {

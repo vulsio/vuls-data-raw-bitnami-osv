@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2023-30583",
-	"modified": "2024-09-10T08:12:33.215142Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-09-10T07:19:44.533Z",
 	"aliases": [
 		"CVE-2023-30583"
@@ -42,6 +42,10 @@
 		{
 			"type": "WEB",
 			"url": "https://nodejs.org/en/blog/vulnerability/june-2023-security-releases"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20240926-0006/"
 		}
 	],
 	"database_specific": {

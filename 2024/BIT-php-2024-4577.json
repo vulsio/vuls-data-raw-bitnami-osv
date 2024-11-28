@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2024-4577",
-	"modified": "2024-10-08T04:27:04.262252Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-06-12T07:30:56.913Z",
 	"aliases": [
 		"CVE-2024-4577",
@@ -127,6 +127,14 @@
 		{
 			"type": "WEB",
 			"url": "https://security.netapp.com/advisory/ntap-20240621-0008/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.vicarius.io/vsociety/posts/php-cgi-argument-injection-to-rce-cve-2024-4577"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.vicarius.io/vsociety/posts/php-cgi-os-command-injection-vulnerability-cve-2024-4577"
 		}
 	],
 	"database_specific": {

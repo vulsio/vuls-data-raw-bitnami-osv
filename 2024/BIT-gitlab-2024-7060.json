@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-gitlab-2024-7060",
-	"modified": "2024-11-05T07:36:31.248Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-07-26T07:19:04.262Z",
 	"aliases": [
 		"CVE-2024-7060"
@@ -17,7 +17,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+					"score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N"
 				}
 			],
 			"ranges": [
@@ -61,6 +61,6 @@
 			"cpe:2.3:a:gitlab:gitlab:*:*:*:*:*:*:*:*",
 			"cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*"
 		],
-		"severity": "Medium"
+		"severity": "Low"
 	}
 }

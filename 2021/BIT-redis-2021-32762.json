@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-redis-2021-32762",
-	"modified": "2024-08-23T07:13:08.097704Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T11:07:37.308Z",
 	"aliases": [
 		"BIT-keydb-2021-32762",
@@ -20,7 +20,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+					"score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
 				}
 			],
 			"ranges": [

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-mattermost-2023-3590",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T11:00:08.789Z",
 	"aliases": [
 		"CVE-2023-3590"
@@ -17,7 +17,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+					"score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N"
 				}
 			],
 			"ranges": [
@@ -48,6 +48,6 @@
 		"cpes": [
 			"cpe:2.3:a:mattermost:mattermost_server:*:*:*:*:*:*:*:*"
 		],
-		"severity": "High"
+		"severity": "Low"
 	}
 }

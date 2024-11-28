@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-mattermost-2022-1384",
-	"modified": "2024-08-21T15:26:57.862898Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T11:04:07.589Z",
 	"aliases": [
 		"CVE-2022-1384",
@@ -19,7 +19,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+					"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L"
 				}
 			],
 			"ranges": [
@@ -50,6 +50,6 @@
 		"cpes": [
 			"cpe:2.3:a:mattermost:mattermost_server:*:*:*:*:*:*:*:*"
 		],
-		"severity": "High"
+		"severity": "Medium"
 	}
 }

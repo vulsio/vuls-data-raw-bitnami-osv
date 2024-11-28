@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-tomcat-2024-52316",
-	"modified": "2024-11-20T07:57:13.659034Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-11-20T07:20:14.583Z",
 	"aliases": [
 		"CVE-2024-52316",
@@ -55,6 +55,10 @@
 		{
 			"type": "WEB",
 			"url": "https://lists.apache.org/thread/lopzlqh91jj9n334g02om08sbysdb928"
+		},
+		{
+			"type": "WEB",
+			"url": "http://www.openwall.com/lists/oss-security/2024/11/18/2"
 		}
 	],
 	"database_specific": {

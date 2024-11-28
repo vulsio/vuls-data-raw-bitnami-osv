@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-nginx-ingress-controller-2024-7646",
-	"modified": "2024-08-20T08:13:43.725335Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-08-20T07:27:11.209Z",
 	"aliases": [
 		"CVE-2024-7646",
@@ -55,6 +55,10 @@
 		{
 			"type": "WEB",
 			"url": "https://groups.google.com/g/kubernetes-security-announce/c/a1__cKjWkfA"
+		},
+		{
+			"type": "WEB",
+			"url": "http://www.openwall.com/lists/oss-security/2024/08/16/5"
 		}
 	],
 	"database_specific": {

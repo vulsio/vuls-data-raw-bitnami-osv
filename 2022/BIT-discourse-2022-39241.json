@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2022-39241",
-	"modified": "2024-05-19T02:24:35.171881Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T11:04:00.270Z",
 	"aliases": [
 		"CVE-2022-39241"
@@ -17,7 +17,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N"
+					"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:L/A:N"
 				}
 			],
 			"ranges": [
@@ -123,6 +123,6 @@
 			"cpe:2.3:a:discourse:discourse:2.9.0:beta8:*:*:*:*:*:*",
 			"cpe:2.3:a:discourse:discourse:2.9.0:beta9:*:*:*:*:*:*"
 		],
-		"severity": "Medium"
+		"severity": "High"
 	}
 }

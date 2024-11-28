@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-minio-2023-25812",
-	"modified": "2024-08-01T06:27:54.281588Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T10:56:58.195Z",
 	"aliases": [
 		"CVE-2023-25812",
@@ -18,7 +18,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L"
 				}
 			],
 			"ranges": [
@@ -57,6 +57,6 @@
 		"cpes": [
 			"cpe:2.3:a:minio:minio:*:*:*:*:*:*:*:*"
 		],
-		"severity": "High"
+		"severity": "Medium"
 	}
 }

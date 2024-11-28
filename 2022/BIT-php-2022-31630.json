@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2022-31630",
-	"modified": "2024-04-03T11:23:37.595Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T11:03:29.464Z",
 	"aliases": [
 		"CVE-2022-31630"
@@ -17,7 +17,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H"
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L"
 				}
 			],
 			"ranges": [
@@ -60,6 +60,6 @@
 		"cpes": [
 			"cpe:2.3:a:php:php:*:*:*:*:*:*:*:*"
 		],
-		"severity": "High"
+		"severity": "Medium"
 	}
 }

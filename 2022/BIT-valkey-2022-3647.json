@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-valkey-2022-3647",
-	"modified": "2024-08-23T07:13:18.134449Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-08-22T19:42:54.056Z",
 	"aliases": [
 		"BIT-keydb-2022-3647",
@@ -19,7 +19,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L"
+					"score": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L"
 				}
 			],
 			"ranges": [

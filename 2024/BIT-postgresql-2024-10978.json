@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-postgresql-2024-10978",
-	"modified": "2024-11-16T07:59:17.179946Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-11-16T07:16:45.984Z",
 	"aliases": [
 		"CVE-2024-10978"
@@ -72,6 +72,14 @@
 		{
 			"type": "WEB",
 			"url": "https://www.postgresql.org/support/security/CVE-2024-10978/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00018.html"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.postgresql.org/message-id/173171334532.1547978.1518068370217143844%40wrigleys.postgresql.org"
 		}
 	],
 	"database_specific": {

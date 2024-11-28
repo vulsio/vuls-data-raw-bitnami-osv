@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-gradle-2023-42445",
-	"modified": "2024-08-01T05:26:30.392094Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T10:52:45.671Z",
 	"aliases": [
 		"CVE-2023-42445",
@@ -18,7 +18,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N"
+					"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:H"
 				}
 			],
 			"ranges": [

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-tensorflow-2022-36014",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T11:12:08.476Z",
 	"aliases": [
 		"CVE-2022-36014",
@@ -18,7 +18,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+					"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
 				}
 			],
 			"ranges": [
@@ -73,6 +73,6 @@
 		"cpes": [
 			"cpe:2.3:a:google:tensorflow:*:*:*:*:*:*:*:*"
 		],
-		"severity": "High"
+		"severity": "Medium"
 	}
 }

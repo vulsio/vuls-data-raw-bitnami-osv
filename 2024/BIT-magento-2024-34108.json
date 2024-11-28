@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-magento-2024-34108",
-	"modified": "2024-08-08T07:57:19.922Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-06-17T07:24:53.334Z",
 	"aliases": [
 		"CVE-2024-34108"
@@ -17,7 +17,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+					"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
 				}
 			],
 			"ranges": [
@@ -68,6 +68,6 @@
 			"cpe:2.3:a:magento:magento:*:*:*:*:open_source:*:*:*",
 			"cpe:2.3:a:magento:magento:*:*:*:*:open_source:php:*:*"
 		],
-		"severity": "High"
+		"severity": "Critical"
 	}
 }

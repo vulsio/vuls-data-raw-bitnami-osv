@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-magento-2022-34256",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T10:56:20.487Z",
 	"aliases": [
 		"CVE-2022-34256",
@@ -18,7 +18,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
 				}
 			],
 			"ranges": [
@@ -116,6 +116,6 @@
 			"cpe:2.3:a:magento:magento:2.4.3:p2:*:*:commerce:*:*:*",
 			"cpe:2.3:a:magento:magento:2.4.4:-:*:*:commerce:*:*:*"
 		],
-		"severity": "Critical"
+		"severity": "High"
 	}
 }

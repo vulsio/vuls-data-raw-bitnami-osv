@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-dotnet-2023-44487",
-	"modified": "2024-10-22T05:28:47.277637Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T10:52:07.879Z",
 	"aliases": [
 		"BIT-apisix-2023-44487",
@@ -627,6 +627,10 @@
 		{
 			"type": "WEB",
 			"url": "https://security.netapp.com/advisory/ntap-20240621-0007/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.vicarius.io/vsociety/posts/rapid-reset-cve-2023-44487-dos-in-http2-understanding-the-root-cause"
 		}
 	],
 	"database_specific": {

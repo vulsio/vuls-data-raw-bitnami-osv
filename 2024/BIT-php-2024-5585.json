@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2024-5585",
-	"modified": "2024-10-08T04:41:57.451877Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-06-12T07:30:26.608Z",
 	"aliases": [
 		"CVE-2024-5585",
@@ -18,7 +18,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+					"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L"
 				}
 			],
 			"ranges": [
@@ -71,6 +71,10 @@
 		{
 			"type": "WEB",
 			"url": "https://security.netapp.com/advisory/ntap-20240726-0002/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.vicarius.io/vsociety/posts/command-injection-vulnerability-in-php-on-windows-systems-cve-2024-1874-and-cve-2024-5585"
 		}
 	],
 	"database_specific": {

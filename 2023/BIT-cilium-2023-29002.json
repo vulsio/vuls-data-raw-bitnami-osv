@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-cilium-2023-29002",
-	"modified": "2024-08-20T20:58:34.289309Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-05-15T12:07:46.778Z",
 	"aliases": [
 		"BIT-cilium-operator-2023-29002",
@@ -25,7 +25,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N"
+					"score": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:N"
 				}
 			],
 			"ranges": [
@@ -68,6 +68,6 @@
 		"cpes": [
 			"cpe:2.3:a:cilium:cilium:*:*:*:*:*:*:*:*"
 		],
-		"severity": "Medium"
+		"severity": "High"
 	}
 }

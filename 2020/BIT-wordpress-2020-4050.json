@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-wordpress-2020-4050",
-	"modified": "2024-08-01T09:26:47.364082Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T11:10:55.170Z",
 	"aliases": [
 		"BIT-wordpress-multisite-2020-4050",
@@ -19,7 +19,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N"
+					"score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:N"
 				}
 			],
 			"ranges": [

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-airflow-2024-45498",
-	"modified": "2024-11-05T07:36:31.248Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-09-10T07:04:05.933Z",
 	"aliases": [
 		"CVE-2024-45498",
@@ -47,6 +47,10 @@
 		{
 			"type": "WEB",
 			"url": "https://lists.apache.org/thread/tl7lzczcqdmqj2pcpbvtjdpd2tb9561n"
+		},
+		{
+			"type": "WEB",
+			"url": "http://www.openwall.com/lists/oss-security/2024/09/06/2"
 		}
 	],
 	"database_specific": {

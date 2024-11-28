@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-zookeeper-2024-51504",
-	"modified": "2024-11-09T07:57:09.705092Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-11-09T07:22:22.387Z",
 	"aliases": [
 		"CVE-2024-51504"
@@ -42,6 +42,10 @@
 		{
 			"type": "WEB",
 			"url": "https://lists.apache.org/thread/b3qrmpkto5r6989qr61fw9y2x646kqlh"
+		},
+		{
+			"type": "WEB",
+			"url": "http://www.openwall.com/lists/oss-security/2024/11/06/5"
 		}
 	],
 	"database_specific": {

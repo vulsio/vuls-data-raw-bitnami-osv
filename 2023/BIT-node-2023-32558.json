@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2023-32558",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T10:59:45.565Z",
 	"aliases": [
 		"CVE-2023-32558"
@@ -42,6 +42,10 @@
 		{
 			"type": "WEB",
 			"url": "https://hackerone.com/reports/2051257"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20241025-0003/"
 		}
 	],
 	"database_specific": {

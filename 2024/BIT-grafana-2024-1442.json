@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-grafana-2024-1442",
-	"modified": "2024-07-18T07:56:34.499Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-12T08:24:28.608Z",
 	"aliases": [
 		"CVE-2024-1442",
@@ -68,6 +68,10 @@
 		{
 			"type": "WEB",
 			"url": "https://grafana.com/security/security-advisories/cve-2024-1442/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20241122-0007/"
 		}
 	],
 	"database_specific": {

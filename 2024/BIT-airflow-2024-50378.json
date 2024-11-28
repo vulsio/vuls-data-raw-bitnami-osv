@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-airflow-2024-50378",
-	"modified": "2024-11-12T07:56:53.939344Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-11-12T07:08:08.685Z",
 	"aliases": [
 		"CVE-2024-50378",
@@ -47,6 +47,10 @@
 		{
 			"type": "WEB",
 			"url": "https://lists.apache.org/thread/17rxys384lzfd6nhm3fztzgvk47zy7jb"
+		},
+		{
+			"type": "WEB",
+			"url": "http://www.openwall.com/lists/oss-security/2024/11/08/5"
 		}
 	],
 	"database_specific": {

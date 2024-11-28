@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-alertmanager-2023-40577",
-	"modified": "2024-11-08T19:58:35.691061Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-11-08T19:09:34.789Z",
 	"aliases": [
 		"CVE-2023-40577",
@@ -19,7 +19,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
 				}
 			],
 			"ranges": [
@@ -54,6 +54,6 @@
 		"cpes": [
 			"cpe:2.3:a:prometheus:alertmanager:0.25.0:*:*:*:*:*:*:*"
 		],
-		"severity": "Medium"
+		"severity": "High"
 	}
 }

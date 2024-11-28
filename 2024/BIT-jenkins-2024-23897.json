@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-jenkins-2024-23897",
-	"modified": "2024-05-15T07:50:41.654Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-03-06T10:53:54.098Z",
 	"aliases": [
 		"CVE-2024-23897",
@@ -65,6 +65,10 @@
 		{
 			"type": "WEB",
 			"url": "https://www.sonarsource.com/blog/excessive-expansion-uncovering-critical-security-vulnerabilities-in-jenkins/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.vicarius.io/vsociety/posts/the-anatomy-of-a-jenkins-vulnerability-cve-2024-23897-revealed-1"
 		}
 	],
 	"database_specific": {

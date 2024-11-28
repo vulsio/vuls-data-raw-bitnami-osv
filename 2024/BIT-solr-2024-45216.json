@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-solr-2024-45216",
-	"modified": "2024-10-18T07:58:53.954299Z",
+	"modified": "2024-11-27T19:40:48.342Z",
 	"published": "2024-10-18T07:18:31.999Z",
 	"aliases": [
 		"CVE-2024-45216",
@@ -49,6 +49,10 @@
 		{
 			"type": "WEB",
 			"url": "https://solr.apache.org/security.html#cve-2024-45216-apache-solr-authentication-bypass-possible-using-a-fake-url-path-ending"
+		},
+		{
+			"type": "WEB",
+			"url": "http://www.openwall.com/lists/oss-security/2024/10/15/8"
 		}
 	],
 	"database_specific": {
