@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-python-2024-11168",
-	"modified": "2024-12-10T11:57:01.395059Z",
+	"modified": "2024-12-11T07:36:45.271Z",
 	"published": "2024-12-10T11:25:45.323Z",
 	"aliases": [
 		"CVE-2024-11168",
@@ -21,6 +21,18 @@
 					"events": [
 						{
 							"introduced": "0"
+						},
+						{
+							"fixed": "3.9.21"
+						},
+						{
+							"introduced": "3.10.0"
+						},
+						{
+							"fixed": "3.10.16"
+						},
+						{
+							"introduced": "3.11.0"
 						},
 						{
 							"fixed": "3.11.4"
