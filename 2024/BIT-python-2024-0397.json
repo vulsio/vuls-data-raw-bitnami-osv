@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-python-2024-0397",
-	"modified": "2024-10-17T19:39:35.829Z",
+	"modified": "2024-12-12T07:36:17.144Z",
 	"published": "2024-06-20T11:18:14.556Z",
 	"aliases": [
 		"CVE-2024-0397",
@@ -26,22 +26,10 @@
 					"type": "SEMVER",
 					"events": [
 						{
-							"introduced": "3.12.0"
+							"introduced": "0"
 						},
 						{
-							"fixed": "3.12.3"
-						},
-						{
-							"introduced": "3.11.0"
-						},
-						{
-							"fixed": "3.11.9"
-						},
-						{
-							"introduced": "3.10.0"
-						},
-						{
-							"fixed": "3.10.14"
+							"fixed": "3.8.20"
 						},
 						{
 							"introduced": "3.9.0"
@@ -50,10 +38,22 @@
 							"fixed": "3.9.20"
 						},
 						{
-							"introduced": "0"
+							"introduced": "3.10.0"
 						},
 						{
-							"fixed": "3.8.20"
+							"fixed": "3.10.14"
+						},
+						{
+							"introduced": "3.11.0"
+						},
+						{
+							"fixed": "3.11.9"
+						},
+						{
+							"introduced": "3.12.0"
+						},
+						{
+							"fixed": "3.12.3"
 						}
 					]
 				}
