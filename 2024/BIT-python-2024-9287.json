@@ -1,8 +1,8 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-python-2024-9287",
-	"modified": "2024-12-05T07:34:22.895Z",
-	"published": "2024-10-24T07:17:50.969Z",
+	"modified": "2024-12-13T12:59:30.377Z",
+	"published": "2024-12-13T12:39:42.210Z",
 	"aliases": [
 		"CVE-2024-9287",
 		"PSF-2024-12"
@@ -20,22 +20,10 @@
 					"type": "SEMVER",
 					"events": [
 						{
-							"introduced": "3.13.0"
+							"introduced": "0"
 						},
 						{
-							"fixed": "3.13.1"
-						},
-						{
-							"introduced": "3.12.0"
-						},
-						{
-							"fixed": "3.12.8"
-						},
-						{
-							"introduced": "3.11.0"
-						},
-						{
-							"fixed": "3.11.11"
+							"fixed": "3.9.21"
 						},
 						{
 							"introduced": "3.10.0"
@@ -44,10 +32,22 @@
 							"fixed": "3.10.16"
 						},
 						{
-							"introduced": "0"
+							"introduced": "3.11.0"
 						},
 						{
-							"fixed": "3.9.21"
+							"fixed": "3.11.11"
+						},
+						{
+							"introduced": "3.12.0"
+						},
+						{
+							"fixed": "3.12.8"
+						},
+						{
+							"introduced": "3.13.0"
+						},
+						{
+							"fixed": "3.13.1"
 						}
 					]
 				}
@@ -58,22 +58,6 @@
 		}
 	],
 	"references": [
-		{
-			"type": "WEB",
-			"url": "https://github.com/python/cpython/issues/124651"
-		},
-		{
-			"type": "WEB",
-			"url": "https://github.com/python/cpython/pull/124712"
-		},
-		{
-			"type": "WEB",
-			"url": "https://mail.python.org/archives/list/security-announce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL/"
-		},
-		{
-			"type": "WEB",
-			"url": "https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483"
-		},
 		{
 			"type": "WEB",
 			"url": "https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7"
@@ -89,6 +73,22 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/python/cpython/commit/ae961ae94bf19c8f8c7fbea3d1c25cc55ce8ae97"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/python/cpython/issues/124651"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/python/cpython/pull/124712"
+		},
+		{
+			"type": "WEB",
+			"url": "https://mail.python.org/archives/list/security-announce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL/"
 		}
 	],
 	"database_specific": {
