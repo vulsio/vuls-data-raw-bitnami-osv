@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2021-3449",
-	"modified": "2024-06-23T19:56:34.118Z",
+	"modified": "2024-12-16T15:27:00.557120Z",
 	"published": "2024-03-06T11:05:44.892Z",
 	"aliases": [
+		"BIT-node-min-2021-3449",
 		"CVE-2021-3449",
 		"GHSA-83mx-573x-5rw9",
 		"RUSTSEC-2021-0055"

@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2023-39332",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2024-12-16T15:26:54.199893Z",
 	"published": "2024-03-06T10:59:07.902Z",
 	"aliases": [
+		"BIT-node-min-2023-39332",
 		"CVE-2023-39332"
 	],
 	"details": "Various `node:fs` functions allow specifying paths as either strings or `Uint8Array` objects. In Node.js environments, the `Buffer` class extends the `Uint8Array` class. Node.js prevents path traversal through strings (see CVE-2023-30584) and `Buffer` objects (see CVE-2023-32004), but not through non-`Buffer` `Uint8Array` objects.\r\rThis is distinct from CVE-2023-32004 which only referred to `Buffer` objects. However, the vulnerability follows the same pattern using `Uint8Array` instead of `Buffer`.\r\rPlease note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",

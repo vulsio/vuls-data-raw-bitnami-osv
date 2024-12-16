@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2021-22921",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2024-12-16T15:27:11.050067Z",
 	"published": "2024-03-06T11:06:44.883Z",
 	"aliases": [
+		"BIT-node-min-2021-22921",
 		"CVE-2021-22921"
 	],
 	"details": "Node.js before 16.4.1, 14.17.2, and 12.22.2 is vulnerable to local privilege escalation attacks under certain conditions on Windows platforms. More specifically, improper configuration of permissions in the installation directory allows an attacker to perform two different escalation attacks: PATH and DLL hijacking.",

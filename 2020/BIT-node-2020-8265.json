@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2020-8265",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2024-12-16T15:27:14.262021Z",
 	"published": "2024-03-06T11:07:41.583Z",
 	"aliases": [
+		"BIT-node-min-2020-8265",
 		"CVE-2020-8265"
 	],
 	"details": "Node.js versions before 10.23.1, 12.20.1, 14.15.4, 15.5.1 are vulnerable to a use-after-free bug in its TLS implementation. When writing to a TLS enabled socket, node::StreamBase::Write calls node::TLSWrap::DoWrite with a freshly allocated WriteWrap object as first argument. If the DoWrite method does not return an error, this object is passed back to the caller as part of a StreamWriteResult structure. This may be exploited to corrupt memory leading to a Denial of Service or potentially other exploits.",

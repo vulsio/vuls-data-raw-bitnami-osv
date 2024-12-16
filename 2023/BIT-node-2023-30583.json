@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2023-30583",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2024-12-16T15:27:06.875142Z",
 	"published": "2024-09-10T07:19:44.533Z",
 	"aliases": [
+		"BIT-node-min-2023-30583",
 		"CVE-2023-30583"
 	],
 	"details": "fs.openAsBlob() can bypass the experimental permission model when using the file system read restriction with the `--allow-fs-read` flag in Node.js 20. This flaw arises from a missing check in the `fs.openAsBlob()` API.Please note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",

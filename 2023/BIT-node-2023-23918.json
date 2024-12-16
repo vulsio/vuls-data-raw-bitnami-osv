@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2023-23918",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2024-12-16T15:26:52.476419Z",
 	"published": "2024-03-06T11:02:19.960Z",
 	"aliases": [
+		"BIT-node-min-2023-23918",
 		"CVE-2023-23918"
 	],
 	"details": "A privilege escalation vulnerability exists in Node.js <19.6.1, <18.14.1, <16.19.1 and <14.21.3 that made it possible to bypass the experimental Permissions (https://nodejs.org/api/permissions.html) feature in Node.js and access non authorized modules by using process.mainModule.require(). This only affects users who had enabled the experimental permissions option with --experimental-policy.",

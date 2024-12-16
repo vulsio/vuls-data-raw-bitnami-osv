@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2024-22017",
-	"modified": "2024-11-29T14:42:14.930675Z",
+	"modified": "2024-12-16T15:27:02.434101Z",
 	"published": "2024-11-29T14:03:41.826Z",
 	"aliases": [
+		"BIT-node-min-2024-22017",
 		"CVE-2024-22017"
 	],
 	"details": "setuid() does not affect libuv's internal io_uring operations if initialized before the call to setuid().This allows the process to perform privileged operations despite presumably having dropped such privileges through a call to setuid().This vulnerability affects all users using version greater or equal than Node.js 18.18.0, Node.js 20.4.0 and Node.js 21.",

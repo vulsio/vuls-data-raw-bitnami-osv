@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2020-10531",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2024-12-16T15:27:10.003584Z",
 	"published": "2024-03-06T11:08:59.997Z",
 	"aliases": [
+		"BIT-node-min-2020-10531",
 		"CVE-2020-10531"
 	],
 	"details": "An issue was discovered in International Components for Unicode (ICU) for C/C++ through 66.1. An integer overflow, leading to a heap-based buffer overflow, exists in the UnicodeString::doAppend() function in common/unistr.cpp.",

@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2020-8201",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2024-12-16T15:27:00.636533Z",
 	"published": "2024-03-06T11:08:09.371Z",
 	"aliases": [
+		"BIT-node-min-2020-8201",
 		"CVE-2020-8201"
 	],
 	"details": "Node.js < 12.18.4 and < 14.11 can be exploited to perform HTTP desync attacks and deliver malicious payloads to unsuspecting users. The payloads can be crafted by an attacker to hijack user sessions, poison cookies, perform clickjacking, and a multitude of other attacks depending on the architecture of the underlying system. The attack was possible due to a bug in processing of carrier-return symbols in the HTTP header names.",

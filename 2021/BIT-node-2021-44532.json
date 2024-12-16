@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2021-44532",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2024-12-16T15:26:53.390488Z",
 	"published": "2024-03-06T11:04:58.292Z",
 	"aliases": [
+		"BIT-node-min-2021-44532",
 		"CVE-2021-44532"
 	],
 	"details": "Node.js < 12.22.9, < 14.18.3, < 16.13.2, and < 17.3.1 converts SANs (Subject Alternative Names) to a string format. It uses this string to check peer certificates against hostnames when validating connections. The string format was subject to an injection vulnerability when name constraints were used within a certificate chain, allowing the bypass of these name constraints.Versions of Node.js with the fix for this escape SANs containing the problematic characters in order to prevent the injection. This behavior can be reverted through the --security-revert command-line option.",

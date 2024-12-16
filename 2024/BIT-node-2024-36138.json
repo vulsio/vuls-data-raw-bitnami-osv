@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2024-36138",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2024-12-16T15:27:03.479512Z",
 	"published": "2024-09-10T07:13:39.524Z",
 	"aliases": [
+		"BIT-node-min-2024-36138",
 		"CVE-2024-36138"
 	],
 	"details": "Bypass incomplete fix of CVE-2024-27980, that arises from improper handling of batch files with all possible extensions on Windows via child_process.spawn / child_process.spawnSync. A malicious command line argument can inject arbitrary commands and achieve code execution even if the shell option is not enabled.",

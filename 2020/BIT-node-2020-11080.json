@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2020-11080",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2024-12-16T15:27:08.051851Z",
 	"published": "2024-03-06T11:08:52.092Z",
 	"aliases": [
+		"BIT-node-min-2020-11080",
 		"CVE-2020-11080",
 		"GHSA-q5wr-xfw9-q7xr"
 	],

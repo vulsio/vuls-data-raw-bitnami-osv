@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2024-27982",
-	"modified": "2024-06-04T10:56:55.215182Z",
+	"modified": "2024-12-16T15:27:03.838745Z",
 	"published": "2024-06-04T09:49:37.511Z",
 	"aliases": [
+		"BIT-node-min-2024-27982",
 		"CVE-2024-27982"
 	],
 	"details": "The team has identified a critical vulnerability in the http server of the most recent version of Node, where malformed headers can lead to HTTP request smuggling. Specifically, if a space is placed before a content-length header, it is not interpreted correctly, enabling attackers to smuggle in a second request within the body of the first.",

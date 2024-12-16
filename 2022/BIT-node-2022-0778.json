@@ -1,11 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2022-0778",
-	"modified": "2024-06-23T19:56:34.118Z",
+	"modified": "2024-12-16T15:27:12.108728Z",
 	"published": "2024-03-06T11:04:37.785Z",
 	"aliases": [
 		"BIT-mariadb-2022-0778",
 		"BIT-mysql-client-2022-0778",
+		"BIT-node-min-2022-0778",
 		"CVE-2022-0778",
 		"GHSA-x3mh-jvjw-3xwx",
 		"RUSTSEC-2022-0014"

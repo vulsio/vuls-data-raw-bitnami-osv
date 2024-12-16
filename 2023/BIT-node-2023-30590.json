@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2023-30590",
-	"modified": "2024-03-28T07:48:37.181Z",
+	"modified": "2024-12-16T15:26:57.032048Z",
 	"published": "2024-03-06T11:00:43.978Z",
 	"aliases": [
+		"BIT-node-min-2023-30590",
 		"CVE-2023-30590"
 	],
 	"details": "The generateKeys() API function returned from crypto.createDiffieHellman() only generates missing (or outdated) keys, that is, it only generates a private key if none has been set yet, but the function is also needed to compute the corresponding public key after calling setPrivateKey(). However, the documentation says this API call: \"Generates private and public Diffie-Hellman key values\".The documented behavior is very different from the actual behavior, and this difference could easily lead to security issues in applications that use these APIs as the DiffieHellman may be used as the basis for application-level security, implications are consequently broad.",
