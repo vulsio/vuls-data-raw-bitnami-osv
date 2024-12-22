@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-laravel-2024-52301",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2024-12-22T07:38:12.944Z",
 	"published": "2024-11-14T07:12:00.720Z",
 	"aliases": [
 		"CVE-2024-52301",
@@ -67,6 +67,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/laravel/framework/security/advisories/GHSA-gv7v-rgg6-548h"
+		},
+		{
+			"type": "WEB",
+			"url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00019.html"
 		}
 	],
 	"database_specific": {
