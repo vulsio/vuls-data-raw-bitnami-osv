@@ -1,8 +1,8 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-tomcat-2024-52316",
-	"modified": "2024-11-27T19:40:48.342Z",
-	"published": "2024-11-20T07:20:14.583Z",
+	"modified": "2024-12-23T19:39:01.994Z",
+	"published": "2024-12-23T19:21:59.125Z",
 	"aliases": [
 		"CVE-2024-52316",
 		"GHSA-xcpr-7mr4-h4xq"
@@ -26,19 +26,19 @@
 					"type": "SEMVER",
 					"events": [
 						{
-							"introduced": "11.0.0-m1"
+							"introduced": "11.0.0"
 						},
 						{
 							"fixed": "11.0.0"
 						},
 						{
-							"introduced": "10.1.0-m1"
+							"introduced": "10.1.0"
 						},
 						{
 							"fixed": "10.1.31"
 						},
 						{
-							"introduced": "9.0.0-m1"
+							"introduced": "9.0.0"
 						},
 						{
 							"fixed": "9.0.96"
