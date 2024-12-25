@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-tomcat-2024-56337",
-	"modified": "2024-12-24T19:57:01.201838Z",
+	"modified": "2024-12-25T07:38:57.197Z",
 	"published": "2024-12-24T19:21:50.598Z",
 	"aliases": [
 		"CVE-2024-56337",
@@ -57,7 +57,8 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:apache:tomcat:*:*:*:*:*:*:*:*"
+			"cpe:2.3:a:apache:tomcat:*:*:*:*:*:*:*:*",
+			"cpe:2.3:a:apache:tomcat:*:*:*:*:*:maven:*:*"
 		],
 		"severity": "Unknown"
 	}
