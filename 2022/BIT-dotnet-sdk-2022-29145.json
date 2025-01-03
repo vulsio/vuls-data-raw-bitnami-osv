@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-dotnet-sdk-2022-29145",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-03T07:34:56.972Z",
 	"published": "2024-03-06T10:58:06.404Z",
 	"aliases": [
 		"BIT-dotnet-2022-29145",
@@ -62,6 +62,10 @@
 		{
 			"type": "WEB",
 			"url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29145"
+		},
+		{
+			"type": "WEB",
+			"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-29145"
 		}
 	],
 	"database_specific": {
