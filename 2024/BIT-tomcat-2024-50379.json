@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-tomcat-2024-50379",
-	"modified": "2024-12-23T19:57:00.017403Z",
+	"modified": "2025-01-04T07:36:32.889Z",
 	"published": "2024-12-23T19:22:06.638Z",
 	"aliases": [
 		"CVE-2024-50379",
@@ -63,6 +63,10 @@
 		{
 			"type": "WEB",
 			"url": "http://www.openwall.com/lists/oss-security/2024/12/18/2"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20250103-0003/"
 		}
 	],
 	"database_specific": {
