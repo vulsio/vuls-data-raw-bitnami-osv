@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-python-2024-12254",
-	"modified": "2024-12-12T17:22:35.314Z",
+	"modified": "2025-01-07T07:35:54.487Z",
 	"published": "2024-12-10T11:25:37.215Z",
 	"aliases": [
 		"CVE-2024-12254",
@@ -15,6 +15,12 @@
 				"name": "python",
 				"purl": "pkg:bitnami/python"
 			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+				}
+			],
 			"ranges": [
 				{
 					"type": "SEMVER",
@@ -60,6 +66,6 @@
 		"cpes": [
 			"cpe:2.3:a:python:python:*:*:*:*:*:*:*:*"
 		],
-		"severity": "Unknown"
+		"severity": "High"
 	}
 }
