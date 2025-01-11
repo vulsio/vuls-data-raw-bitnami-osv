@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2024-8929",
-	"modified": "2024-11-28T09:12:21.827476Z",
+	"modified": "2025-01-11T07:38:25.737Z",
 	"published": "2024-11-27T19:18:36.988Z",
 	"aliases": [
 		"CVE-2024-8929"
@@ -54,6 +54,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/php/php-src/security/advisories/GHSA-h35g-vwh6-m678"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20250110-0008/"
 		}
 	],
 	"database_specific": {

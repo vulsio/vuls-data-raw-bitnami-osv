@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-vault-2024-7594",
-	"modified": "2024-10-09T20:59:17.850526Z",
+	"modified": "2025-01-11T07:38:25.737Z",
 	"published": "2024-09-30T09:10:31.036Z",
 	"aliases": [
 		"CVE-2024-7594",
@@ -44,6 +44,10 @@
 		{
 			"type": "WEB",
 			"url": "https://discuss.hashicorp.com/t/hcsec-2024-20-vault-ssh-secrets-engine-configuration-did-not-restrict-valid-principals-by-default/70251"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20250110-0007/"
 		}
 	],
 	"database_specific": {

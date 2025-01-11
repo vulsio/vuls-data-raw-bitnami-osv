@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2024-8932",
-	"modified": "2024-11-28T09:12:21.893928Z",
+	"modified": "2025-01-11T07:38:25.737Z",
 	"published": "2024-11-27T19:18:28.985Z",
 	"aliases": [
 		"CVE-2024-8932"
@@ -54,6 +54,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/php/php-src/security/advisories/GHSA-g665-fm4p-vhff"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20250110-0009/"
 		}
 	],
 	"database_specific": {

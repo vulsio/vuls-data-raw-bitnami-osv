@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-postgresql-2024-10979",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-11T07:38:25.737Z",
 	"published": "2024-11-16T07:16:38.797Z",
 	"aliases": [
 		"CVE-2024-10979"
@@ -76,6 +76,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/fmora50591/postgresql-env-vuln/blob/main/README.md"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20250110-0003/"
 		}
 	],
 	"database_specific": {
