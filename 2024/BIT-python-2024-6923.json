@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-python-2024-6923",
-	"modified": "2024-12-12T07:36:17.144Z",
+	"modified": "2025-01-12T07:38:22.063Z",
 	"published": "2024-08-19T09:33:54.548Z",
 	"aliases": [
 		"CVE-2024-6923",
@@ -111,6 +111,10 @@
 		{
 			"type": "WEB",
 			"url": "https://security.netapp.com/advisory/ntap-20240926-0003/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00005.html"
 		}
 	],
 	"database_specific": {
