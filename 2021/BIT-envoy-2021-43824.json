@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-envoy-2021-43824",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-14T10:12:16.823804Z",
 	"published": "2024-03-06T10:56:58.513Z",
 	"aliases": [
-		"CVE-2021-43824",
-		"GHSA-vj5m-rch8-5r2p"
+		"CVE-2021-43824"
 	],
 	"details": "Envoy is an open source edge and service proxy, designed for cloud-native applications. In affected versions a crafted request crashes Envoy when a CONNECT request is sent to JWT filter configured with regex match. This provides a denial of service attack vector. The only workaround is to not use regex in the JWT filter. Users are advised to upgrade.",
 	"affected": [

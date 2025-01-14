@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2022-37458",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-14T11:12:05.341335Z",
 	"published": "2024-03-06T11:04:36.097Z",
 	"aliases": [
-		"CVE-2022-37458",
-		"GHSA-q2rg-m477-8wg7"
+		"CVE-2022-37458"
 	],
 	"details": "Discourse through 2.8.7 allows admins to send invitations to arbitrary email addresses at an unlimited rate.",
 	"affected": [

@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-envoy-2022-29225",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-14T11:12:08.381660Z",
 	"published": "2024-03-06T10:55:19.285Z",
 	"aliases": [
-		"CVE-2022-29225",
-		"GHSA-75hv-2jjj-89hh"
+		"CVE-2022-29225"
 	],
 	"details": "Envoy is a cloud-native high-performance proxy. In versions prior to 1.22.1 secompressors accumulate decompressed data into an intermediate buffer before overwriting the body in the decode/encodeBody. This may allow an attacker to zip bomb the decompressor by sending a small highly compressed payload. Maliciously constructed zip files may exhaust system memory and cause a denial of service. Users are advised to upgrade. Users unable to upgrade may consider disabling decompression.",
 	"affected": [

@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2022-36066",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T11:12:26.857138Z",
 	"published": "2024-03-06T11:05:00.775Z",
 	"aliases": [
-		"CVE-2022-36066",
-		"GHSA-grvh-qcpg-hfmv"
+		"CVE-2022-36066"
 	],
 	"details": "Discourse is an open source discussion platform. In versions prior to 2.8.9 on the `stable` branch and prior to 2.9.0.beta10 on the `beta` and `tests-passed` branches, admins can upload a maliciously crafted Zip or Gzip Tar archive to write files at arbitrary locations and trigger remote code execution. The problem is patched in version 2.8.9 on the `stable` branch and version 2.9.0.beta10 on the `beta` and `tests-passed` branches. There are no known workarounds.",
 	"affected": [

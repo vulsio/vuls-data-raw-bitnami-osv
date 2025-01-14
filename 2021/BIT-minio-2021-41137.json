@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-minio-2021-41137",
-	"modified": "2024-05-23T01:28:29.932679Z",
+	"modified": "2025-01-14T09:56:56.920151Z",
 	"published": "2024-03-06T10:57:52.071Z",
 	"aliases": [
-		"CVE-2021-41137",
-		"GHSA-v64v-g97p-577c"
+		"CVE-2021-41137"
 	],
 	"details": "Minio is a Kubernetes native application for cloud storage. All users on release `RELEASE.2021-10-10T16-53-30Z` are affected by a vulnerability that involves bypassing policy restrictions on regular users. Normally, checkKeyValid() should return owner true for rootCreds. In the affected version, policy restriction did not work properly for users who did not have service (svc) or security token service (STS) accounts. This issue is fixed in `RELEASE.2021-10-13T00-23-17Z`. A downgrade back to release `RELEASE.2021-10-08T23-58-24Z` is available as a workaround.",
 	"affected": [

@@ -1,12 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-wordpress-multisite-2022-21662",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T10:56:49.882758Z",
 	"published": "2024-03-06T11:09:58.690Z",
 	"aliases": [
 		"BIT-wordpress-2022-21662",
-		"CVE-2022-21662",
-		"GHSA-699q-3hj9-889w"
+		"CVE-2022-21662"
 	],
 	"details": "WordPress is a free and open-source content management system written in PHP and paired with a MariaDB database. Low-privileged authenticated users (like author) in WordPress core are able to execute JavaScript/perform stored XSS attack, which can affect high-privileged users. This has been patched in WordPress version 5.8.3. Older affected versions are also fixed via security release, that go back till 3.7.37. We strongly recommend that you keep auto-updates enabled. There are no known workarounds for this issue.",
 	"affected": [

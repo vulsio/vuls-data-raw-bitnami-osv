@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2021-43850",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T10:11:59.250129Z",
 	"published": "2024-03-06T11:08:27.960Z",
 	"aliases": [
-		"CVE-2021-43850",
-		"GHSA-59jr-pj65-qmvr"
+		"CVE-2021-43850"
 	],
 	"details": "Discourse is an open source platform for community discussion. In affected versions admins users can trigger a Denial of Service attack via the `/message-bus/_diagnostics` path. The impact of this vulnerability is greater on multisite Discourse instances (where multiple forums are served from a single application server) where any admin user on any of the forums are able to visit the `/message-bus/_diagnostics` path. The problem has been patched. Please upgrade to 2.8.0.beta10 or 2.7.12. No workarounds for this issue exist.",
 	"affected": [

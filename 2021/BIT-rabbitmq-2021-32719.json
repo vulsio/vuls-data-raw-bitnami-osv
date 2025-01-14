@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-rabbitmq-2021-32719",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T09:26:53.159571Z",
 	"published": "2024-03-06T11:03:23.676Z",
 	"aliases": [
-		"CVE-2021-32719",
-		"GHSA-5452-hxj4-773x"
+		"CVE-2021-32719"
 	],
 	"details": "RabbitMQ is a multi-protocol messaging broker. In rabbitmq-server prior to version 3.8.18, when a federation link was displayed in the RabbitMQ management UI via the `rabbitmq_federation_management` plugin, its consumer tag was rendered without proper <script> tag sanitization. This potentially allows for JavaScript code execution in the context of the page. The user must be signed in and have elevated permissions (manage federation upstreams and policies) for this to occur. The vulnerability is patched in RabbitMQ 3.8.18. As a workaround, disable the `rabbitmq_federation_management` plugin and use [CLI tools](https://www.rabbitmq.com/cli.html) instead.",
 	"affected": [

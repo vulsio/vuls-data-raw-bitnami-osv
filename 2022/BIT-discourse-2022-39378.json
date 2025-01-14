@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2022-39378",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-14T11:11:50.130120Z",
 	"published": "2024-03-06T11:03:40.801Z",
 	"aliases": [
-		"CVE-2022-39378",
-		"GHSA-2gvq-27h6-4h5f"
+		"CVE-2022-39378"
 	],
 	"details": "Discourse is a platform for community discussion. Under certain conditions, a user badge may have been awarded based on a user's activity in a topic with restricted access. Before this vulnerability was disclosed, the topic title of the topic associated with the user badge may be viewed by any user. If there are sensitive information in the topic title, it will therefore have been exposed. This issue is patched in the latest stable, beta and tests-passed versions of Discourse. There are currently no known workarounds available.",
 	"affected": [

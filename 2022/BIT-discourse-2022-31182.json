@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2022-31182",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-14T11:12:16.917062Z",
 	"published": "2024-03-06T11:05:29.482Z",
 	"aliases": [
-		"CVE-2022-31182",
-		"GHSA-4ff8-3j78-w6pp"
+		"CVE-2022-31182"
 	],
 	"details": "Discourse is the an open source discussion platform. In affected versions a maliciously crafted request for static assets could cause error responses to be cached by Discourse's default NGINX proxy configuration. A corrected NGINX configuration is included in the latest stable, beta and tests-passed versions of Discourse. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
 	"affected": [

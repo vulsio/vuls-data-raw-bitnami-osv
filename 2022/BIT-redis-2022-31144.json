@@ -1,13 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-redis-2022-31144",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T11:12:22.940179Z",
 	"published": "2024-03-06T11:05:57.008Z",
 	"aliases": [
 		"BIT-keydb-2022-31144",
 		"BIT-valkey-2022-31144",
-		"CVE-2022-31144",
-		"GHSA-96f7-42fg-2jrh"
+		"CVE-2022-31144"
 	],
 	"details": "Redis is an in-memory database that persists on disk. A specially crafted `XAUTOCLAIM` command on a stream key in a specific state may result with heap overflow, and potentially remote code execution. This problem affects versions on the 7.x branch prior to 7.0.4. The patch is released in version 7.0.4.",
 	"affected": [

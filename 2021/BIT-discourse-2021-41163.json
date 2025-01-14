@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2021-41163",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T09:57:09.807799Z",
 	"published": "2024-03-06T11:09:16.561Z",
 	"aliases": [
-		"CVE-2021-41163",
-		"GHSA-jcjx-pvpc-qgwq"
+		"CVE-2021-41163"
 	],
 	"details": "Discourse is an open source platform for community discussion. In affected versions maliciously crafted requests could lead to remote code execution. This resulted from a lack of validation in subscribe_url values. This issue is patched in the latest stable, beta and tests-passed versions of Discourse. To workaround the issue without updating, requests with a path starting /webhooks/aws path could be blocked at an upstream proxy.",
 	"affected": [

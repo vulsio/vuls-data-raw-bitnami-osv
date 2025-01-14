@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-envoy-2022-21655",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-14T10:56:56.000338Z",
 	"published": "2024-03-06T10:56:14.571Z",
 	"aliases": [
-		"CVE-2022-21655",
-		"GHSA-7r5p-7fmh-jxpg"
+		"CVE-2022-21655"
 	],
 	"details": "Envoy is an open source edge and service proxy, designed for cloud-native applications. The envoy common router will segfault if an internal redirect selects a route configured with direct response or redirect actions. This will result in a denial of service. As a workaround turn off internal redirects if direct response entries are configured on the same listener.",
 	"affected": [

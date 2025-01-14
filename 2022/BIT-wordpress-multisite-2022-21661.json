@@ -1,12 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-wordpress-multisite-2022-21661",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T10:57:05.304722Z",
 	"published": "2024-03-06T11:10:04.396Z",
 	"aliases": [
 		"BIT-wordpress-2022-21661",
-		"CVE-2022-21661",
-		"GHSA-6676-cqfm-gw84"
+		"CVE-2022-21661"
 	],
 	"details": "WordPress is a free and open-source content management system written in PHP and paired with a MariaDB database. Due to improper sanitization in WP_Query, there can be cases where SQL injection is possible through plugins or themes that use it in a certain way. This has been patched in WordPress version 5.8.3. Older affected versions are also fixed via security release, that go back till 3.7.37. We strongly recommend that you keep auto-updates enabled. There are no known workarounds for this vulnerability.",
 	"affected": [

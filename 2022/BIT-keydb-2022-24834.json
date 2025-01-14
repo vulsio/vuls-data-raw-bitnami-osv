@@ -1,13 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-keydb-2022-24834",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T10:57:23.895467Z",
 	"published": "2024-08-22T19:27:04.151Z",
 	"aliases": [
 		"BIT-redis-2022-24834",
 		"BIT-valkey-2022-24834",
-		"CVE-2022-24834",
-		"GHSA-p8x2-9v9q-c838"
+		"CVE-2022-24834"
 	],
 	"details": "Redis is an in-memory database that persists on disk. A specially crafted Lua script executing in Redis can trigger a heap overflow in the cjson library, and result with heap corruption and potentially remote code execution. The problem exists in all versions of Redis with Lua scripting support, starting from 2.6, and affects only authenticated and authorized users. The problem is fixed in versions 7.0.12, 6.2.13, and 6.0.20.",
 	"affected": [

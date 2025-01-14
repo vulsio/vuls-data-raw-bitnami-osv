@@ -1,12 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-wordpress-2022-21663",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T10:57:16.487821Z",
 	"published": "2024-03-06T11:10:06.883Z",
 	"aliases": [
 		"BIT-wordpress-multisite-2022-21663",
-		"CVE-2022-21663",
-		"GHSA-jmmq-m8p8-332h"
+		"CVE-2022-21663"
 	],
 	"details": "WordPress is a free and open-source content management system written in PHP and paired with a MariaDB database. On a multisite, users with Super Admin role can bypass explicit/additional hardening under certain conditions through object injection. This has been patched in WordPress version 5.8.3. Older affected versions are also fixed via security release, that go back till 3.7.37. We strongly recommend that you keep auto-updates enabled. There are no known workarounds for this issue.",
 	"affected": [

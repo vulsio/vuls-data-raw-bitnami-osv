@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-timescaledb-2022-24128",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-14T10:56:59.922885Z",
 	"published": "2024-03-06T11:07:11.868Z",
 	"aliases": [
-		"CVE-2022-24128",
-		"GHSA-fh8v-663w-79w9"
+		"CVE-2022-24128"
 	],
 	"details": "Timescale TimescaleDB 1.x and 2.x before 2.5.2 may allow privilege escalation during extension installation. The installation process uses commands such as CREATE x IF NOT EXIST that allow an unprivileged user to precreate objects. These objects will be used by the installer (which executes as Superuser), leading to privilege escalation. In order to be able to take advantage of this, an unprivileged user would need to be able to create objects in a database and then get a Superuser to install TimescaleDB into their database. (In the fixed versions, the installation aborts when it finds that an object already exists.)",
 	"affected": [

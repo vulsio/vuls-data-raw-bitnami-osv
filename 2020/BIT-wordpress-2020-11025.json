@@ -1,12 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-wordpress-2020-11025",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T08:27:08.359756Z",
 	"published": "2024-03-06T11:12:18.198Z",
 	"aliases": [
 		"BIT-wordpress-multisite-2020-11025",
-		"CVE-2020-11025",
-		"GHSA-4mhg-j6fx-5g3c"
+		"CVE-2020-11025"
 	],
 	"details": "In affected versions of WordPress, a cross-site scripting (XSS) vulnerability in the navigation section of Customizer allows JavaScript code to be executed. Exploitation requires an authenticated user. This has been patched in version 5.4.1, along with all the previously affected versions via a minor release (5.3.3, 5.2.6, 5.1.5, 5.0.9, 4.9.14, 4.8.13, 4.7.17, 4.6.18, 4.5.21, 4.4.22, 4.3.23, 4.2.27, 4.1.30, 4.0.30, 3.9.31, 3.8.33, 3.7.33).",
 	"affected": [

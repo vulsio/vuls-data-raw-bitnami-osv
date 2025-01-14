@@ -1,12 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-wordpress-multisite-2022-21664",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T10:57:13.786318Z",
 	"published": "2024-03-06T11:09:45.778Z",
 	"aliases": [
 		"BIT-wordpress-2022-21664",
-		"CVE-2022-21664",
-		"GHSA-jp3p-gw8h-6x86"
+		"CVE-2022-21664"
 	],
 	"details": "WordPress is a free and open-source content management system written in PHP and paired with a MariaDB database. Due to lack of proper sanitization in one of the classes, there's potential for unintended SQL queries to be executed. This has been patched in WordPress version 5.8.3. Older affected versions are also fixed via security release, that go back till 4.1.34. We strongly recommend that you keep auto-updates enabled. There are no known workarounds for this issue.",
 	"affected": [

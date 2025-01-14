@@ -1,12 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-wordpress-multisite-2020-4050",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T08:57:10.431240Z",
 	"published": "2024-03-06T11:10:41.103Z",
 	"aliases": [
 		"BIT-wordpress-2020-4050",
-		"CVE-2020-4050",
-		"GHSA-4vpv-fgg2-gcqc"
+		"CVE-2020-4050"
 	],
 	"details": "In affected versions of WordPress, misuse of the `set-screen-option` filter's return value allows arbitrary user meta fields to be saved. It does require an admin to install a plugin that would misuse the filter. Once installed, it can be leveraged by low privileged users. This has been patched in version 5.4.2, along with all the previously affected versions via a minor release (5.3.4, 5.2.7, 5.1.6, 5.0.10, 4.9.15, 4.8.14, 4.7.18, 4.6.19, 4.5.22, 4.4.23, 4.3.24, 4.2.28, 4.1.31, 4.0.31, 3.9.32, 3.8.34, 3.7.34).",
 	"affected": [

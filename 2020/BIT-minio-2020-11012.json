@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-minio-2020-11012",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T08:27:14.630243Z",
 	"published": "2024-03-06T10:58:32.002Z",
 	"aliases": [
-		"CVE-2020-11012",
-		"GHSA-xv4r-vccv-mg4w"
+		"CVE-2020-11012"
 	],
 	"details": "MinIO versions before RELEASE.2020-04-23T00-58-49Z have an authentication bypass issue in the MinIO admin API. Given an admin access key, it is possible to perform admin API operations i.e. creating new service accounts for existing access keys - without knowing the admin secret key. This has been fixed and released in version RELEASE.2020-04-23T00-58-49Z.",
 	"affected": [

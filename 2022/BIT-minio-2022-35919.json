@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-minio-2022-35919",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T11:12:15.359078Z",
 	"published": "2024-03-06T10:57:07.178Z",
 	"aliases": [
-		"CVE-2022-35919",
-		"GHSA-gr9v-6pcm-rqvg"
+		"CVE-2022-35919"
 	],
 	"details": "MinIO is a High Performance Object Storage released under GNU Affero General Public License v3.0. In affected versions all 'admin' users authorized for `admin:ServerUpdate` can selectively trigger an error that in response, returns the content of the path requested. Any normal OS system would allow access to contents at any arbitrary paths that are readable by MinIO process. Users are advised to upgrade. Users unable to upgrade may disable ServerUpdate API by denying the `admin:ServerUpdate` action for your admin users via IAM policies.",
 	"affected": [
