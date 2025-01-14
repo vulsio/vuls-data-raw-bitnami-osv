@@ -1,13 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-redis-2023-41056",
-	"modified": "2024-08-23T07:13:06.392017Z",
+	"modified": "2025-01-14T12:11:56.270425Z",
 	"published": "2024-03-06T11:03:35.383Z",
 	"aliases": [
 		"BIT-keydb-2023-41056",
 		"BIT-valkey-2023-41056",
-		"CVE-2023-41056",
-		"GHSA-xr47-pcmx-fq2m"
+		"CVE-2023-41056"
 	],
 	"details": "Redis is an in-memory database that persists on disk. Redis incorrectly handles resizing of memory buffers which can result in integer overflow that leads to heap overflow and potential remote code execution. This issue has been patched in version 7.0.15 and 7.2.4.",
 	"affected": [

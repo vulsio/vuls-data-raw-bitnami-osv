@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2023-28111",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T11:42:23.056788Z",
 	"published": "2024-03-06T10:58:28.677Z",
 	"aliases": [
-		"CVE-2023-28111",
-		"GHSA-26h3-8ww8-v5fc"
+		"CVE-2023-28111"
 	],
 	"details": "Discourse is an open-source discussion platform. Prior to version 3.1.0.beta3 of the `beta` and `tests-passed` branches, attackers are able to bypass Discourse's server-side request forgery (SSRF) protection for private IPv4 addresses by using a IPv4-mapped IPv6 address. The issue is patched in the latest beta and tests-passed version of Discourse. version 3.1.0.beta3 of the `beta` and `tests-passed` branches. There are no known workarounds.",
 	"affected": [

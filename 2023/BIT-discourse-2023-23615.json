@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2023-23615",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-14T11:41:51.635978Z",
 	"published": "2024-03-06T11:00:56.201Z",
 	"aliases": [
-		"CVE-2023-23615",
-		"GHSA-7mf3-5v84-wxq8"
+		"CVE-2023-23615"
 	],
 	"details": "Discourse is an open source discussion platform. The embeddable comments can be exploited to create new topics as any user but without any clear title or content. This issue is patched in the latest stable, beta and tests-passed versions of Discourse. As a workaround, disable embeddable comments by deleting all embeddable hosts.",
 	"affected": [

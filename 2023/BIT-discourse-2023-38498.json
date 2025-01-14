@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2023-38498",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T11:56:45.210058Z",
 	"published": "2024-03-06T10:55:24.002Z",
 	"aliases": [
-		"CVE-2023-38498",
-		"GHSA-wv29-rm3f-4g2j"
+		"CVE-2023-38498"
 	],
 	"details": "Discourse is an open source discussion platform. Prior to version 3.0.6 of the `stable` branch and version 3.1.0.beta7 of the `beta` and `tests-passed` branches, a malicious user can prevent the defer queue from proceeding promptly on sites hosted in the same multisite installation. The issue is patched in version 3.0.6 of the `stable` branch and version 3.1.0.beta7 of the `beta` and `tests-passed` branches. There are no known workarounds for this vulnerability. Users of multisite configurations should upgrade.",
 	"affected": [

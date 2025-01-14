@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2023-38685",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-14T11:56:49.151481Z",
 	"published": "2024-03-06T10:55:02.602Z",
 	"aliases": [
-		"CVE-2023-38685",
-		"GHSA-wx6x-q4gp-mgv5"
+		"CVE-2023-38685"
 	],
 	"details": "Discourse is an open source discussion platform. Prior to version 3.0.6 of the `stable` branch and version 3.1.0.beta7 of the `beta` and `tests-passed` branches, information about restricted-visibility topic tags could be obtained by unauthorized users. The issue is patched in version 3.0.6 of the `stable` branch and version 3.1.0.beta7 of the `beta` and `tests-passed` branches.",
 	"affected": [

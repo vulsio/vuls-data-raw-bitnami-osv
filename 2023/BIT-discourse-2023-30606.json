@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2023-30606",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T11:57:15.432041Z",
 	"published": "2024-03-06T10:57:34.776Z",
 	"aliases": [
-		"CVE-2023-30606",
-		"GHSA-jj93-w3mv-3jvv"
+		"CVE-2023-30606"
 	],
 	"details": "Discourse is an open source platform for community discussion. In affected versions a user logged as an administrator can call arbitrary methods on the `SiteSetting` class, notably `#clear_cache!` and `#notify_changed!`, which when done on a multisite instance, can affect the entire cluster resulting in a denial of service. Users not running in multisite environments are not affected. This issue is patched in the latest stable, beta and tests-passed versions of Discourse. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
 	"affected": [

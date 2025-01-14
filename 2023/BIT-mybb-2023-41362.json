@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-mybb-2023-41362",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-14T12:12:14.214497Z",
 	"published": "2024-03-06T10:57:07.289Z",
 	"aliases": [
-		"CVE-2023-41362",
-		"GHSA-pr74-wvp3-q6f5"
+		"CVE-2023-41362"
 	],
 	"details": "MyBB before 1.8.36 allows Code Injection by users with certain high privileges. Templates in Admin CP intentionally use eval, and there was some validation of the input to eval, but type juggling interfered with this when using PCRE within PHP.",
 	"affected": [

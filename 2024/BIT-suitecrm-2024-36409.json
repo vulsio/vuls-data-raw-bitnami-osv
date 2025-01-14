@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-suitecrm-2024-36409",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T12:27:09.102429Z",
 	"published": "2024-06-12T07:38:44.800Z",
 	"aliases": [
-		"CVE-2024-36409",
-		"GHSA-pxq4-vw23-v73f"
+		"CVE-2024-36409"
 	],
 	"details": "SuiteCRM is an open-source Customer Relationship Management (CRM) software application. In versions prior to 7.14.4 and 8.6.1, poor input validation allows for SQL Injection in Tree data entry point. Versions 7.14.4 and 8.6.1 contain a fix for this issue.",
 	"affected": [

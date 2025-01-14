@@ -1,12 +1,13 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-redis-2024-51741",
-	"modified": "2025-01-08T07:57:17.477891Z",
+	"modified": "2025-01-14T12:27:02.567834Z",
 	"published": "2025-01-08T07:20:15.238Z",
 	"aliases": [
 		"BIT-keydb-2024-51741",
 		"BIT-valkey-2024-51741",
-		"CVE-2024-51741"
+		"CVE-2024-51741",
+		"GHSA-prpq-rh5h-46g9"
 	],
 	"details": "Redis is an open source, in-memory database that persists on disk. An authenticated with sufficient privileges may create a malformed ACL selector which, when accessed, triggers a server panic and subsequent denial of service. The problem is fixed in Redis 7.2.7 and 7.4.2.",
 	"affected": [

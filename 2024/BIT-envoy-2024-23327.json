@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-envoy-2024-23327",
-	"modified": "2024-10-08T04:12:01.406408Z",
+	"modified": "2025-01-14T12:27:02.844049Z",
 	"published": "2024-03-06T10:51:34.990Z",
 	"aliases": [
-		"CVE-2024-23327",
-		"GHSA-4h5x-x9vh-m29j"
+		"CVE-2024-23327"
 	],
 	"details": "Envoy is a high-performance edge/middle/service proxy. When PPv2 is enabled both on a listener and subsequent cluster, the Envoy instance will segfault when attempting to craft the upstream PPv2 header. This occurs when the downstream request has a command type of LOCAL and does not have the protocol block. This issue has been addressed in releases 1.29.1, 1.28.1, 1.27.3, and 1.26.7. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
 	"affected": [

@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2023-25172",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T11:42:14.017374Z",
 	"published": "2024-03-06T10:59:15.105Z",
 	"aliases": [
-		"CVE-2023-25172",
-		"GHSA-7pm2-prxw-wrvp"
+		"CVE-2023-25172"
 	],
 	"details": "Discourse is an open-source discussion platform. Prior to version 3.0.1 of the `stable` branch and version 3.1.0.beta2 of the `beta` and `tests-passed` branches, a maliciously crafted URL can be included in a user's full name field to to carry out cross-site scripting attacks on sites with a disabled or overly permissive CSP (Content Security Policy). Discourse's default CSP prevents this vulnerability. The vulnerability is patched in version 3.0.1 of the `stable` branch and version 3.1.0.beta2 of the `beta` and `tests-passed` branches. As a workaround, enable and/or restore your site's CSP to the default one provided with Discourse.",
 	"affected": [

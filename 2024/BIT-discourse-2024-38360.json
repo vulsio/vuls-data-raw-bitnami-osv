@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2024-38360",
-	"modified": "2024-10-08T04:27:07.350200Z",
+	"modified": "2025-01-14T12:27:13.768151Z",
 	"published": "2024-07-17T09:56:10.359Z",
 	"aliases": [
-		"CVE-2024-38360",
-		"GHSA-68pm-hm8x-pq2p"
+		"CVE-2024-38360"
 	],
 	"details": "Discourse is an open source platform for community discussion. In affected versions by creating replacement words with an almost unlimited number of characters, a moderator can reduce the availability of a Discourse instance. This issue has been addressed in stable version 3.2.3. Users are advised to upgrade. Users unable to upgrade may manually remove the long watched words either via SQL or Rails console.",
 	"affected": [

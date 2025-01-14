@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2023-36818",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T11:56:59.496095Z",
 	"published": "2024-03-06T10:56:14.187Z",
 	"aliases": [
-		"CVE-2023-36818",
-		"GHSA-gxqx-3q2p-37gm"
+		"CVE-2023-36818"
 	],
 	"details": "Discourse is an open source discussion platform. In affected versions a request to create or update custom sidebar section can cause a denial of service. This issue has been patched in commit `52b003d915`. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
 	"affected": [

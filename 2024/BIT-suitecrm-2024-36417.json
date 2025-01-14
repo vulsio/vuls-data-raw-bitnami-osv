@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-suitecrm-2024-36417",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T12:26:56.319848Z",
 	"published": "2024-06-12T07:36:56.114Z",
 	"aliases": [
-		"CVE-2024-36417",
-		"GHSA-3www-6rqc-rm7j"
+		"CVE-2024-36417"
 	],
 	"details": "SuiteCRM is an open-source Customer Relationship Management (CRM) software application. Prior to versions 7.14.4 and 8.6.1, an unverified IFrame can be added some some inputs, which could allow for a cross-site scripting attack. Versions 7.14.4 and 8.6.1 contain a fix for this issue.",
 	"affected": [

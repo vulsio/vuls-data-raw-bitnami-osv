@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-openproject-2023-31140",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-14T11:57:20.134894Z",
 	"published": "2024-03-06T11:00:13.802Z",
 	"aliases": [
-		"CVE-2023-31140",
-		"GHSA-xfp9-qqfj-x28q"
+		"CVE-2023-31140"
 	],
 	"details": "OpenProject is open source project management software. Starting with version 7.4.0 and prior to version 12.5.4, when a user registers and confirms their first two-factor authentication (2FA) device for an account, existing logged in sessions for that user account are not terminated. Likewise, if an administrators creates a mobile phone 2FA device on behalf of a user, their existing sessions are not terminated. The issue has been resolved in OpenProject version 12.5.4 by actively terminating sessions of user accounts having registered and confirmed a 2FA device. As a workaround, users who register the first 2FA device on their account can manually log out to terminate all other active sessions. This is the default behavior of OpenProject but might be disabled through a configuration option. Double check that this option is not overridden if one plans to employ the workaround.",
 	"affected": [

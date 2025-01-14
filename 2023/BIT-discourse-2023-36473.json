@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2023-36473",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T11:57:16.148013Z",
 	"published": "2024-03-06T10:56:25.676Z",
 	"aliases": [
-		"CVE-2023-36473",
-		"GHSA-9f52-624j-8ppq"
+		"CVE-2023-36473"
 	],
 	"details": "Discourse is an open source discussion platform. A CSP (Content Security Policy) nonce reuse vulnerability could allow XSS attacks to bypass CSP protection. There are no known XSS vectors at the moment, but should one be discovered, this vulnerability would allow the XSS attack to completely bypass CSP. The vulnerability is patched in the latest tests-passed, beta and stable branches.",
 	"affected": [

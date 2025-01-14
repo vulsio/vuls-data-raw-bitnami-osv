@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2024-11233",
-	"modified": "2024-11-28T09:12:21.524407Z",
+	"modified": "2025-01-14T12:12:13.531711Z",
 	"published": "2024-11-27T19:20:18.573Z",
 	"aliases": [
-		"CVE-2024-11233"
+		"CVE-2024-11233",
+		"GHSA-r977-prxv-hc43"
 	],
 	"details": "In PHP versions 8.1.* before 8.1.31, 8.2.* before 8.2.26, 8.3.* before 8.3.14, due to an error in convert.quoted-printable-decode filter certain data can lead to buffer overread by one byte, which can in certain circumstances lead to crashes or disclose content of other memory areas.",
 	"affected": [

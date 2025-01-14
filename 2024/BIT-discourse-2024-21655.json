@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2024-21655",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-14T12:27:06.701498Z",
 	"published": "2024-03-06T10:51:21.402Z",
 	"aliases": [
-		"CVE-2024-21655",
-		"GHSA-m5fc-94mm-38fx"
+		"CVE-2024-21655"
 	],
 	"details": "Discourse is a platform for community discussion. For fields that are client editable, limits on sizes are not imposed. This allows a malicious actor to cause a Discourse instance to use excessive disk space and also often excessive bandwidth. The issue is patched 3.1.4 and 3.2.0.beta4.",
 	"affected": [

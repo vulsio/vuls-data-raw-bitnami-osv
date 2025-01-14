@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-suitecrm-2024-36416",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T12:27:06.575517Z",
 	"published": "2024-06-12T07:37:09.711Z",
 	"aliases": [
-		"CVE-2024-36416",
-		"GHSA-jrpp-22g3-2j77"
+		"CVE-2024-36416"
 	],
 	"details": "SuiteCRM is an open-source Customer Relationship Management (CRM) software application. Prior to versions 7.14.4 and 8.6.1, a deprecated v4 API example with no log rotation allows denial of service by logging excessive data. Versions 7.14.4 and 8.6.1 contain a fix for this issue.",
 	"affected": [

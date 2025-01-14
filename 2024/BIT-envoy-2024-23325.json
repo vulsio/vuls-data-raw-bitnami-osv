@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-envoy-2024-23325",
-	"modified": "2024-10-08T04:12:07.675742Z",
+	"modified": "2025-01-14T12:27:16.841883Z",
 	"published": "2024-03-06T10:51:44.887Z",
 	"aliases": [
-		"CVE-2024-23325",
-		"GHSA-5m7c-mrwr-pm26"
+		"CVE-2024-23325"
 	],
 	"details": "Envoy is a high-performance edge/middle/service proxy. Envoy crashes in Proxy protocol when using an address type that isn’t supported by the OS. Envoy is susceptible to crashing on a host with IPv6 disabled and a listener config with proxy protocol enabled when it receives a request where the client presents its IPv6 address.  It is valid for a client to present its IPv6 address to a target server even though the whole chain is connected via IPv4. This issue has been addressed in released 1.29.1, 1.28.1, 1.27.3, and 1.26.7. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
 	"affected": [

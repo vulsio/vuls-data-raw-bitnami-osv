@@ -1,13 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-redis-2023-28425",
-	"modified": "2024-08-23T07:13:23.035735Z",
+	"modified": "2025-01-14T11:42:19.763686Z",
 	"published": "2024-03-06T11:04:24.673Z",
 	"aliases": [
 		"BIT-keydb-2023-28425",
 		"BIT-valkey-2023-28425",
-		"CVE-2023-28425",
-		"GHSA-mvmm-4vq6-vw8c"
+		"CVE-2023-28425"
 	],
 	"details": "Redis is an in-memory database that persists on disk. Starting in version 7.0.8 and prior to version 7.0.10, authenticated users can use the MSETNX command to trigger a runtime assertion and termination of the Redis server process. The problem is fixed in Redis version 7.0.10.",
 	"affected": [

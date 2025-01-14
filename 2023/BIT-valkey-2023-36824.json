@@ -1,13 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-valkey-2023-36824",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-14T11:56:45.134288Z",
 	"published": "2024-08-22T19:41:15.161Z",
 	"aliases": [
 		"BIT-keydb-2023-36824",
 		"BIT-redis-2023-36824",
-		"CVE-2023-36824",
-		"GHSA-4cfx-h9gq-xpx3"
+		"CVE-2023-36824"
 	],
 	"details": "Redis is an in-memory database that persists on disk. In Redit 7.0 prior to 7.0.12, extracting key names from a command and a list of arguments may, in some cases, trigger a heap overflow and result in reading random heap memory, heap corruption and potentially remote code execution. Several scenarios that may lead to authenticated users executing a specially crafted `COMMAND GETKEYS` or `COMMAND GETKEYSANDFLAGS`and authenticated users who were set with ACL rules that match key names, executing a specially crafted command that refers to a variadic list of key names. The vulnerability is patched in Redis 7.0.12.",
 	"affected": [
