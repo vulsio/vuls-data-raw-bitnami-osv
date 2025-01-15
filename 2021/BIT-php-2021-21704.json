@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2021-21704",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-15T08:56:47.264791Z",
 	"published": "2024-03-06T11:05:12.794Z",
 	"aliases": [
+		"BIT-php-min-2021-21704",
 		"CVE-2021-21704"
 	],
 	"details": "In PHP versions 7.3.x below 7.3.29, 7.4.x below 7.4.21 and 8.0.x below 8.0.8, when using Firebird PDO driver extension, a malicious database server could cause crashes in various database functions, such as getAttribute(), execute(), fetch() and others by returning invalid response data that is not parsed correctly by the driver. This can result in crashes, denial of service or potentially memory corruption.",

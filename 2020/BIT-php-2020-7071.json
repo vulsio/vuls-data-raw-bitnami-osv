@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2020-7071",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-15T08:56:51.162401Z",
 	"published": "2024-03-06T11:05:46.267Z",
 	"aliases": [
+		"BIT-php-min-2020-7071",
 		"CVE-2020-7071"
 	],
 	"details": "In PHP versions 7.3.x below 7.3.26, 7.4.x below 7.4.14 and 8.0.0, when validating URL with functions like filter_var($url, FILTER_VALIDATE_URL), PHP will accept an URL with invalid password as valid URL. This may lead to functions that rely on URL being valid to mis-parse the URL and produce wrong data as components of the URL.",

@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2020-7066",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-15T08:57:01.242329Z",
 	"published": "2024-03-06T11:06:42.394Z",
 	"aliases": [
+		"BIT-php-min-2020-7066",
 		"CVE-2020-7066"
 	],
 	"details": "In PHP versions 7.2.x below 7.2.29, 7.3.x below 7.3.16 and 7.4.x below 7.4.4, while using get_headers() with user-supplied URL, if the URL contains zero (\\0) character, the URL will be silently truncated at it. This may cause some software to make incorrect assumptions about the target of the get_headers() and possibly send some information to a wrong server.",

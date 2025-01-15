@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2024-1874",
-	"modified": "2025-01-14T12:27:04.068452Z",
+	"modified": "2025-01-15T08:56:53.617910Z",
 	"published": "2024-05-14T07:29:52.385Z",
 	"aliases": [
+		"BIT-php-min-2024-1874",
 		"CVE-2024-1874"
 	],
 	"details": "In PHP versions 8.1.* before 8.1.28, 8.2.* before 8.2.18, 8.3.* before 8.3.5, when using proc_open() command with array syntax, due to insufficient escaping, if the arguments of the executed command are controlled by a malicious user, the user can supply arguments that would execute arbitrary commands in Windows shell. ",

@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2021-21706",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-15T08:56:43.792582Z",
 	"published": "2024-03-06T11:04:50.991Z",
 	"aliases": [
+		"BIT-php-min-2021-21706",
 		"CVE-2021-21706"
 	],
 	"details": "In PHP versions 7.3.x below 7.3.31, 7.4.x below 7.4.24 and 8.0.x below 8.0.11, in Microsoft Windows environment, ZipArchive::extractTo may be tricked into writing a file outside target directory when extracting a ZIP file, thus potentially causing files to be created or overwritten, subject to OS permissions.",

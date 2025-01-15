@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2020-7065",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-15T08:57:00.769694Z",
 	"published": "2024-03-06T11:06:52.660Z",
 	"aliases": [
+		"BIT-php-min-2020-7065",
 		"CVE-2020-7065"
 	],
 	"details": "In PHP versions 7.3.x below 7.3.16 and 7.4.x below 7.4.4, while using mb_strtolower() function with UTF-32LE encoding, certain invalid strings could cause PHP to overwrite stack-allocated buffer. This could lead to memory corruption, crashes and potentially code execution.",

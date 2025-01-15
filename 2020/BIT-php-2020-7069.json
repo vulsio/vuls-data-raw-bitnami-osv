@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2020-7069",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-15T08:57:04.211500Z",
 	"published": "2024-03-06T11:06:06.701Z",
 	"aliases": [
+		"BIT-php-min-2020-7069",
 		"CVE-2020-7069"
 	],
 	"details": "In PHP versions 7.2.x below 7.2.34, 7.3.x below 7.3.23 and 7.4.x below 7.4.11, when AES-CCM mode is used with openssl_encrypt() function with 12 bytes IV, only first 7 bytes of the IV is actually used. This can lead to both decreased security and incorrect encryption data.",

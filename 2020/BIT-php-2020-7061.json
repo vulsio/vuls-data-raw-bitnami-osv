@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2020-7061",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-15T08:56:52.318685Z",
 	"published": "2024-03-06T11:07:32.612Z",
 	"aliases": [
+		"BIT-php-min-2020-7061",
 		"CVE-2020-7061"
 	],
 	"details": "In PHP versions 7.3.x below 7.3.15 and 7.4.x below 7.4.3, while extracting PHAR files on Windows using phar extension, certain content inside PHAR file could lead to one-byte read past the allocated buffer. This could potentially lead to information disclosure or crash.",

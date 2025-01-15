@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2024-2408",
-	"modified": "2024-08-01T04:58:55.007576Z",
+	"modified": "2025-01-15T08:56:56.701425Z",
 	"published": "2024-06-12T07:31:53.103Z",
 	"aliases": [
+		"BIT-php-min-2024-2408",
 		"CVE-2024-2408",
 		"GHSA-hh26-4ppw-5864"
 	],

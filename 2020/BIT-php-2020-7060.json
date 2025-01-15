@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2020-7060",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-15T08:56:53.185501Z",
 	"published": "2024-03-06T11:07:44.182Z",
 	"aliases": [
+		"BIT-php-min-2020-7060",
 		"CVE-2020-7060"
 	],
 	"details": "When using certain mbstring functions to convert multibyte encodings, in PHP versions 7.2.x below 7.2.27, 7.3.x below 7.3.14 and 7.4.x below 7.4.2 it is possible to supply data that will cause function mbfl_filt_conv_big5_wchar to read past the allocated buffer. This may lead to information disclosure or crash.",
