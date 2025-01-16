@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-python-2023-38898",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-16T09:12:12.179905Z",
 	"published": "2024-03-06T11:03:22.682Z",
 	"aliases": [
 		"BIT-python-2022-48566",
+		"BIT-python-min-2022-48566",
 		"CVE-2022-48566",
 		"CVE-2023-38898",
 		"GHSA-cgfh-jp5w-8cmx",

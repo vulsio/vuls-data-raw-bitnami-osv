@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-python-2021-23336",
-	"modified": "2024-08-01T07:26:54.007287Z",
+	"modified": "2025-01-16T09:12:12.627656Z",
 	"published": "2024-03-06T11:07:00.308Z",
 	"aliases": [
 		"BIT-django-2021-23336",
+		"BIT-python-min-2021-23336",
 		"CVE-2021-23336",
 		"PSF-2021-1",
 		"SNYK-UPSTREAM-PYTHONCPYTHON-1074933"

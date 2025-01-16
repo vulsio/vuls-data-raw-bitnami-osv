@@ -1,12 +1,12 @@
 {
 	"schema_version": "1.6.0",
-	"id": "BIT-php-min-2022-37454",
+	"id": "BIT-python-min-2022-37454",
 	"modified": "2025-01-16T09:11:55.076480Z",
-	"published": "2025-01-14T19:21:21.696Z",
+	"published": "2025-01-16T07:22:28.692Z",
 	"aliases": [
 		"BIT-php-2022-37454",
+		"BIT-php-min-2022-37454",
 		"BIT-python-2022-37454",
-		"BIT-python-min-2022-37454",
 		"CVE-2022-37454",
 		"GHSA-6w4m-2xhg-2658",
 		"PSF-2022-11"
@@ -16,8 +16,8 @@
 		{
 			"package": {
 				"ecosystem": "Bitnami",
-				"name": "php-min",
-				"purl": "pkg:bitnami/php-min"
+				"name": "python-min",
+				"purl": "pkg:bitnami/python-min"
 			},
 			"severity": [
 				{
@@ -30,28 +30,34 @@
 					"type": "SEMVER",
 					"events": [
 						{
-							"introduced": "7.2.0"
+							"introduced": "3.6.0"
 						},
 						{
-							"fixed": "7.4.33"
+							"fixed": "3.7.16"
 						},
 						{
-							"introduced": "8.0.0"
+							"introduced": "3.8.0"
 						},
 						{
-							"fixed": "8.0.25"
+							"fixed": "3.8.16"
 						},
 						{
-							"introduced": "8.1.0"
+							"introduced": "3.9.0"
 						},
 						{
-							"fixed": "8.1.12"
+							"fixed": "3.9.16"
+						},
+						{
+							"introduced": "3.10.0"
+						},
+						{
+							"fixed": "3.10.9"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/bitnami/vulndb/tree/main/data/php-min/BIT-php-min-2022-37454.json"
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/python-min/BIT-python-min-2022-37454.json"
 			}
 		}
 	],
@@ -115,7 +121,7 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:php:php:*:*:*:*:*:*:*:*"
+			"cpe:2.3:a:python:python:*:*:*:*:*:*:*:*"
 		],
 		"severity": "Critical"
 	}

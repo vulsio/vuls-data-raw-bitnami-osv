@@ -1,11 +1,11 @@
 {
 	"schema_version": "1.6.0",
-	"id": "BIT-django-2021-23336",
+	"id": "BIT-python-min-2021-23336",
 	"modified": "2025-01-16T09:12:12.627656Z",
-	"published": "2024-03-06T10:55:33.071Z",
+	"published": "2025-01-16T07:23:36.998Z",
 	"aliases": [
+		"BIT-django-2021-23336",
 		"BIT-python-2021-23336",
-		"BIT-python-min-2021-23336",
 		"CVE-2021-23336",
 		"PSF-2021-1",
 		"SNYK-UPSTREAM-PYTHONCPYTHON-1074933"
@@ -15,8 +15,8 @@
 		{
 			"package": {
 				"ecosystem": "Bitnami",
-				"name": "django",
-				"purl": "pkg:bitnami/django"
+				"name": "python-min",
+				"purl": "pkg:bitnami/python-min"
 			},
 			"severity": [
 				{
@@ -29,28 +29,34 @@
 					"type": "SEMVER",
 					"events": [
 						{
-							"introduced": "2.2.0"
+							"introduced": "0"
 						},
 						{
-							"fixed": "2.2.19"
+							"fixed": "3.6.13"
 						},
 						{
-							"introduced": "3.0.0"
+							"introduced": "3.7.0"
 						},
 						{
-							"fixed": "3.0.13"
+							"fixed": "3.7.10"
 						},
 						{
-							"introduced": "3.1.0"
+							"introduced": "3.8.0"
 						},
 						{
-							"fixed": "3.1.7"
+							"fixed": "3.8.8"
+						},
+						{
+							"introduced": "3.9.0"
+						},
+						{
+							"fixed": "3.9.2"
 						}
 					]
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/bitnami/vulndb/tree/main/data/django/BIT-django-2021-23336.json"
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/python-min/BIT-python-min-2021-23336.json"
 			}
 		}
 	],
@@ -206,7 +212,7 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:djangoproject:django:*:*:*:*:*:*:*:*"
+			"cpe:2.3:a:python:python:*:*:*:*:*:*:*:*"
 		],
 		"severity": "Medium"
 	}

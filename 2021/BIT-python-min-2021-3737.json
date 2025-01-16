@@ -1,10 +1,10 @@
 {
 	"schema_version": "1.6.0",
-	"id": "BIT-python-2021-3737",
+	"id": "BIT-python-min-2021-3737",
 	"modified": "2025-01-16T09:11:51.181564Z",
-	"published": "2024-03-06T11:06:04.065Z",
+	"published": "2025-01-16T07:22:56.899Z",
 	"aliases": [
-		"BIT-python-min-2021-3737",
+		"BIT-python-2021-3737",
 		"CVE-2021-3737",
 		"PSF-2022-7"
 	],
@@ -13,8 +13,8 @@
 		{
 			"package": {
 				"ecosystem": "Bitnami",
-				"name": "python",
-				"purl": "pkg:bitnami/python"
+				"name": "python-min",
+				"purl": "pkg:bitnami/python-min"
 			},
 			"severity": [
 				{
@@ -54,7 +54,7 @@
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/bitnami/vulndb/tree/main/data/python/BIT-python-2021-3737.json"
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/python-min/BIT-python-min-2021-3737.json"
 			}
 		}
 	],

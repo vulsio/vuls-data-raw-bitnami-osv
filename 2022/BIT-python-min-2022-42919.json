@@ -1,10 +1,10 @@
 {
 	"schema_version": "1.6.0",
-	"id": "BIT-python-2022-42919",
+	"id": "BIT-python-min-2022-42919",
 	"modified": "2025-01-16T09:12:15.271574Z",
-	"published": "2024-03-06T11:05:06.167Z",
+	"published": "2025-01-16T07:22:21.502Z",
 	"aliases": [
-		"BIT-python-min-2022-42919",
+		"BIT-python-2022-42919",
 		"CVE-2022-42919",
 		"PSF-2022-9"
 	],
@@ -13,8 +13,8 @@
 		{
 			"package": {
 				"ecosystem": "Bitnami",
-				"name": "python",
-				"purl": "pkg:bitnami/python"
+				"name": "python-min",
+				"purl": "pkg:bitnami/python-min"
 			},
 			"severity": [
 				{
@@ -54,7 +54,7 @@
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/bitnami/vulndb/tree/main/data/python/BIT-python-2022-42919.json"
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/python-min/BIT-python-min-2022-42919.json"
 			}
 		}
 	],

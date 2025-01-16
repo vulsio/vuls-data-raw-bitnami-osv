@@ -1,10 +1,10 @@
 {
 	"schema_version": "1.6.0",
-	"id": "BIT-python-2020-15801",
+	"id": "BIT-python-min-2020-15801",
 	"modified": "2025-01-16T09:11:50.318088Z",
-	"published": "2024-03-06T11:07:46.898Z",
+	"published": "2025-01-16T07:24:07.010Z",
 	"aliases": [
-		"BIT-python-min-2020-15801",
+		"BIT-python-2020-15801",
 		"CVE-2020-15801"
 	],
 	"details": "In Python 3.8.4, sys.path restrictions specified in a python38._pth file are ignored, allowing code to be loaded from arbitrary locations. The <executable-name>._pth file (e.g., the python._pth file) is not affected.",
@@ -12,8 +12,8 @@
 		{
 			"package": {
 				"ecosystem": "Bitnami",
-				"name": "python",
-				"purl": "pkg:bitnami/python"
+				"name": "python-min",
+				"purl": "pkg:bitnami/python-min"
 			},
 			"severity": [
 				{
@@ -41,7 +41,7 @@
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/bitnami/vulndb/tree/main/data/python/BIT-python-2020-15801.json"
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/python-min/BIT-python-min-2020-15801.json"
 			}
 		}
 	],

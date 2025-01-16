@@ -1,11 +1,11 @@
 {
 	"schema_version": "1.6.0",
-	"id": "BIT-python-2022-48566",
+	"id": "BIT-python-min-2022-48566",
 	"modified": "2025-01-16T09:12:12.179905Z",
-	"published": "2024-03-06T11:04:14.285Z",
+	"published": "2025-01-16T07:21:47.986Z",
 	"aliases": [
+		"BIT-python-2022-48566",
 		"BIT-python-2023-38898",
-		"BIT-python-min-2022-48566",
 		"CVE-2022-48566",
 		"CVE-2023-38898",
 		"GHSA-cgfh-jp5w-8cmx",
@@ -19,8 +19,8 @@
 		{
 			"package": {
 				"ecosystem": "Bitnami",
-				"name": "python",
-				"purl": "pkg:bitnami/python"
+				"name": "python-min",
+				"purl": "pkg:bitnami/python-min"
 			},
 			"severity": [
 				{
@@ -60,7 +60,7 @@
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/bitnami/vulndb/tree/main/data/python/BIT-python-2022-48566.json"
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/python-min/BIT-python-min-2022-48566.json"
 			}
 		}
 	],

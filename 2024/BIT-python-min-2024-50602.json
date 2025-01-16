@@ -1,10 +1,10 @@
 {
 	"schema_version": "1.6.0",
-	"id": "BIT-python-2024-50602",
+	"id": "BIT-python-min-2024-50602",
 	"modified": "2025-01-16T09:11:54.820254Z",
-	"published": "2024-12-05T07:15:23.404Z",
+	"published": "2025-01-16T07:19:53.188Z",
 	"aliases": [
-		"BIT-python-min-2024-50602",
+		"BIT-python-2024-50602",
 		"CVE-2024-50602"
 	],
 	"details": "An issue was discovered in libexpat before 2.6.4. There is a crash within the XML_ResumeParser function because XML_StopParser can stop/suspend an unstarted parser.",
@@ -12,8 +12,8 @@
 		{
 			"package": {
 				"ecosystem": "Bitnami",
-				"name": "python",
-				"purl": "pkg:bitnami/python"
+				"name": "python-min",
+				"purl": "pkg:bitnami/python-min"
 			},
 			"severity": [
 				{
@@ -59,7 +59,7 @@
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/bitnami/vulndb/tree/main/data/python/BIT-python-2024-50602.json"
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/python-min/BIT-python-min-2024-50602.json"
 			}
 		}
 	],
