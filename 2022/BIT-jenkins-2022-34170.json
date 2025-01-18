@@ -1,13 +1,13 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-jenkins-2022-34170",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:58:03.470Z",
 	"aliases": [
 		"CVE-2022-34170",
 		"GHSA-62wf-24c4-8r76"
 	],
-	"details": "In Jenkins 2.320 through 2.355 (both inclusive) and LTS 2.332.1 through LTS 2.332.3 (both inclusive) the help icon does not escape the feature name that is part of its tooltip, effectively undoing the fix for SECURITY-1955, resulting in a cross-site scripting (XSS) vulnerability exploitable by attackers with Job/Configure permission.",
+	"details": "In Jenkins LTS 2.332.1 through LTS 2.332.3 (both inclusive) the help icon does not escape the feature name that is part of its tooltip, effectively undoing the fix for SECURITY-1955, resulting in a cross-site scripting (XSS) vulnerability exploitable by attackers with Job/Configure permission.",
 	"affected": [
 		{
 			"package": {
@@ -26,16 +26,10 @@
 					"type": "SEMVER",
 					"events": [
 						{
-							"introduced": "2.320.0"
-						},
-						{
-							"fixed": "2.355.0"
-						},
-						{
 							"introduced": "2.332.1"
 						},
 						{
-							"fixed": "2.332.3"
+							"last_affected": "2.332.3"
 						}
 					]
 				}
@@ -53,7 +47,6 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:-:*:*:*",
 			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
 		],
 		"severity": "Medium"

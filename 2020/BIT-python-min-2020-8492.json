@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-python-min-2020-8492",
-	"modified": "2025-01-16T09:11:58.648020Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2025-01-16T07:23:43.889Z",
 	"aliases": [
 		"BIT-python-2020-8492",
@@ -30,31 +30,31 @@
 							"introduced": "2.7.0"
 						},
 						{
-							"fixed": "2.7.17"
+							"last_affected": "2.7.17"
 						},
 						{
 							"introduced": "3.5.0"
 						},
 						{
-							"fixed": "3.5.9"
+							"last_affected": "3.5.9"
 						},
 						{
 							"introduced": "3.6.0"
 						},
 						{
-							"fixed": "3.6.10"
+							"last_affected": "3.6.10"
 						},
 						{
 							"introduced": "3.7.0"
 						},
 						{
-							"fixed": "3.7.6"
+							"last_affected": "3.7.6"
 						},
 						{
 							"introduced": "3.8.0"
 						},
 						{
-							"fixed": "3.8.1"
+							"last_affected": "3.8.1"
 						}
 					]
 				}

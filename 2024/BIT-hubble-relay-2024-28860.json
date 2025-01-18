@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-hubble-relay-2024-28860",
-	"modified": "2024-07-18T07:56:34.499Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-05-24T19:20:22.490Z",
 	"aliases": [
 		"BIT-cilium-2024-28860",
@@ -33,12 +33,6 @@
 					"type": "SEMVER",
 					"events": [
 						{
-							"introduced": "1.4.0"
-						},
-						{
-							"fixed": "1.13.14"
-						},
-						{
 							"introduced": "1.14.0"
 						},
 						{
@@ -49,6 +43,17 @@
 						},
 						{
 							"fixed": "1.15.3"
+						}
+					]
+				},
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "1.4.0"
+						},
+						{
+							"last_affected": "1.13.14"
 						}
 					]
 				}

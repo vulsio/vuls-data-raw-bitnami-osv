@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-grafana-2020-12458",
-	"modified": "2024-06-28T15:58:29.153689Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:01:23.376Z",
 	"aliases": [
 		"CVE-2020-12458",
@@ -30,7 +30,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "6.7.3"
+							"last_affected": "6.7.3"
 						}
 					]
 				}

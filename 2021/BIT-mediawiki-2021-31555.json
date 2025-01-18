@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-mediawiki-2021-31555",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:11:52.212Z",
 	"aliases": [
 		"CVE-2021-31555"
@@ -28,7 +28,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1.35.2"
+							"last_affected": "1.35.2"
 						}
 					]
 				}

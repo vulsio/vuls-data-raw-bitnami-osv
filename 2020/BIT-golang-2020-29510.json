@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-golang-2020-29510",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:07:00.167Z",
 	"aliases": [
 		"CVE-2020-29510"
@@ -28,7 +28,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1.15.0"
+							"last_affected": "1.15.0"
 						}
 					]
 				}

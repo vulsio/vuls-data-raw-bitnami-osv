@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-gitlab-2020-15525",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:21:23.425Z",
 	"aliases": [
 		"CVE-2020-15525"
@@ -28,7 +28,7 @@
 							"introduced": "11.3.0"
 						},
 						{
-							"fixed": "13.1.2"
+							"last_affected": "13.1.2"
 						}
 					]
 				}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-gitea-2020-14144",
-	"modified": "2024-04-22T19:41:45.593034Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:55:48.587Z",
 	"aliases": [
 		"CVE-2020-14144",
@@ -29,7 +29,7 @@
 							"introduced": "1.1.0"
 						},
 						{
-							"fixed": "1.12.5"
+							"last_affected": "1.12.5"
 						}
 					]
 				}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-vault-2021-43998",
-	"modified": "2024-08-21T15:41:42.790099Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:10:23.204Z",
 	"aliases": [
 		"CVE-2021-43998",
@@ -30,13 +30,8 @@
 							"introduced": "0.11.0"
 						},
 						{
-							"fixed": "1.7.5"
-						}
-					]
-				},
-				{
-					"type": "SEMVER",
-					"events": [
+							"last_affected": "1.7.5"
+						},
 						{
 							"introduced": "1.8.4"
 						},

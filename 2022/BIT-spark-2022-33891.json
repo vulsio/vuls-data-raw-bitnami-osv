@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-spark-2022-33891",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:05:29.361Z",
 	"aliases": [
 		"CVE-2022-33891",
@@ -30,19 +30,19 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "3.0.3"
+							"last_affected": "3.0.3"
 						},
 						{
 							"introduced": "3.1.1"
 						},
 						{
-							"fixed": "3.1.2"
+							"last_affected": "3.1.2"
 						},
 						{
 							"introduced": "3.2.0"
 						},
 						{
-							"fixed": "3.2.1"
+							"last_affected": "3.2.1"
 						}
 					]
 				}

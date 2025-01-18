@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-jenkins-2021-28165",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:58:50.070Z",
 	"aliases": [
 		"CVE-2021-28165",
@@ -30,12 +30,6 @@
 						},
 						{
 							"fixed": "2.277.3"
-						},
-						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "2.286.0"
 						}
 					]
 				}
@@ -477,7 +471,6 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*",
 			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
 		],
 		"severity": "High"

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-mattermost-2021-37863",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:04:59.804Z",
 	"aliases": [
 		"CVE-2021-37863"
@@ -28,7 +28,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "6.0.0"
+							"last_affected": "6.0.0"
 						}
 					]
 				}

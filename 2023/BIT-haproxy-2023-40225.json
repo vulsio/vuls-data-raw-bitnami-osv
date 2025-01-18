@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-haproxy-2023-40225",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:53:12.013Z",
 	"aliases": [
 		"CVE-2023-40225"
@@ -25,24 +25,6 @@
 					"type": "SEMVER",
 					"events": [
 						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "2.0.32"
-						},
-						{
-							"introduced": "2.2.0"
-						},
-						{
-							"fixed": "2.2.30"
-						},
-						{
-							"introduced": "2.4.0"
-						},
-						{
-							"fixed": "2.4.23"
-						},
-						{
 							"introduced": "2.5.0"
 						},
 						{
@@ -59,6 +41,29 @@
 						},
 						{
 							"fixed": "2.8.2"
+						}
+					]
+				},
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"last_affected": "2.0.32"
+						},
+						{
+							"introduced": "2.2.0"
+						},
+						{
+							"last_affected": "2.2.30"
+						},
+						{
+							"introduced": "2.4.0"
+						},
+						{
+							"last_affected": "2.4.23"
 						}
 					]
 				}

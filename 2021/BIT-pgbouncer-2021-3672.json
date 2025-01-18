@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-pgbouncer-2021-3672",
-	"modified": "2024-12-16T15:26:59.778140Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:01:14.293Z",
 	"aliases": [
 		"BIT-node-2021-3672",
@@ -30,7 +30,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1.17.0"
+							"last_affected": "1.17.0"
 						}
 					]
 				}

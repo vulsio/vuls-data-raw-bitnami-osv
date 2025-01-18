@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-moodle-2022-0334",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:05:55.001Z",
 	"aliases": [
 		"CVE-2022-0334",
@@ -26,18 +26,6 @@
 					"type": "SEMVER",
 					"events": [
 						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "3.8.9"
-						},
-						{
-							"introduced": "3.9.0"
-						},
-						{
-							"fixed": "3.9.11"
-						},
-						{
 							"introduced": "3.10.0"
 						},
 						{
@@ -48,6 +36,23 @@
 						},
 						{
 							"fixed": "3.11.5"
+						}
+					]
+				},
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"last_affected": "3.8.9"
+						},
+						{
+							"introduced": "3.9.0"
+						},
+						{
+							"last_affected": "3.9.11"
 						}
 					]
 				}

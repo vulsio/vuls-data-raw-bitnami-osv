@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-limesurvey-2024-42903",
-	"modified": "2024-09-13T07:57:11.135411Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-09-13T07:09:12.473Z",
 	"aliases": [
 		"CVE-2024-42903"
@@ -28,7 +28,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "6.6.1"
+							"last_affected": "6.6.1"
 						}
 					]
 				}

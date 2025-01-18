@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-envoy-2020-12604",
-	"modified": "2024-05-19T02:23:56.933270Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:00:51.569Z",
 	"aliases": [
 		"CVE-2020-12604"
@@ -28,13 +28,8 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1.12.4"
-						}
-					]
-				},
-				{
-					"type": "SEMVER",
-					"events": [
+							"last_affected": "1.12.4"
+						},
 						{
 							"introduced": "1.13.2"
 						},

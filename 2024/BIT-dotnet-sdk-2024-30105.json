@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-dotnet-sdk-2024-30105",
-	"modified": "2024-10-09T17:10:07.551Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-07-20T07:17:20.256Z",
 	"aliases": [
 		"BIT-dotnet-2024-30105",
@@ -30,7 +30,7 @@
 							"introduced": "8.0.0"
 						},
 						{
-							"fixed": "8.0.7"
+							"last_affected": "8.0.7"
 						}
 					]
 				}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-aspnet-core-2020-1045",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:54:08.693Z",
 	"aliases": [
 		"CVE-2020-1045",
@@ -26,16 +26,21 @@
 					"type": "SEMVER",
 					"events": [
 						{
-							"introduced": "2.1.0"
-						},
-						{
-							"fixed": "2.1.21"
-						},
-						{
 							"introduced": "3.1.0"
 						},
 						{
 							"fixed": "3.1.8"
+						}
+					]
+				},
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "2.1.0"
+						},
+						{
+							"last_affected": "2.1.21"
 						}
 					]
 				}

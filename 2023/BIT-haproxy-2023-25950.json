@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-haproxy-2023-25950",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:53:25.686Z",
 	"aliases": [
 		"CVE-2023-25950"
@@ -28,13 +28,8 @@
 							"introduced": "2.6.1"
 						},
 						{
-							"fixed": "2.6.7"
-						}
-					]
-				},
-				{
-					"type": "SEMVER",
-					"events": [
+							"last_affected": "2.6.7"
+						},
 						{
 							"introduced": "2.7.0"
 						},

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-grafana-2020-13379",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:01:01.876Z",
 	"aliases": [
 		"CVE-2020-13379",
@@ -29,7 +29,7 @@
 							"introduced": "3.0.1"
 						},
 						{
-							"fixed": "7.0.1"
+							"last_affected": "7.0.1"
 						}
 					]
 				}

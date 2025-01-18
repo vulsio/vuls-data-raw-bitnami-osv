@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-gitea-2021-45330",
-	"modified": "2024-08-21T16:28:40.512530Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:54:05.371Z",
 	"aliases": [
 		"CVE-2021-45330",
@@ -30,7 +30,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1.15.7"
+							"last_affected": "1.15.7"
 						}
 					]
 				}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-jenkins-2022-2048",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:58:27.765Z",
 	"aliases": [
 		"CVE-2022-2048",
@@ -25,12 +25,6 @@
 				{
 					"type": "SEMVER",
 					"events": [
-						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "2.263.0"
-						},
 						{
 							"introduced": "0"
 						},
@@ -69,7 +63,6 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*",
 			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
 		],
 		"severity": "High"

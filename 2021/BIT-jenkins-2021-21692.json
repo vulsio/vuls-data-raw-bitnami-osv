@@ -1,13 +1,13 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-jenkins-2021-21692",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:59:52.700Z",
 	"aliases": [
 		"CVE-2021-21692",
 		"GHSA-8xg4-xq2v-v6j7"
 	],
-	"details": "FilePath#renameTo and FilePath#moveAllChildrenTo in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier only check 'read' agent-to-controller access permission on the source path, instead of 'delete'.",
+	"details": "FilePath#renameTo and FilePath#moveAllChildrenTo in Jenkins LTS 2.303.2 and earlier only check 'read' agent-to-controller access permission on the source path, instead of 'delete'.",
 	"affected": [
 		{
 			"package": {
@@ -30,12 +30,6 @@
 						},
 						{
 							"fixed": "2.303.3"
-						},
-						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "2.319.0"
 						}
 					]
 				}
@@ -53,7 +47,6 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:-:*:*:*",
 			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
 		],
 		"severity": "Critical"

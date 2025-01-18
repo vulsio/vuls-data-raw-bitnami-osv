@@ -1,13 +1,13 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-jenkins-2023-27903",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:55:57.289Z",
 	"aliases": [
 		"CVE-2023-27903",
 		"GHSA-584m-7r4m-8j6v"
 	],
-	"details": "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier creates a temporary file in the default temporary directory with the default permissions for newly created files when uploading a file parameter through the CLI, potentially allowing attackers with access to the Jenkins controller file system to read and write the file before it is used.",
+	"details": "Jenkins LTS 2.375.3 and earlier creates a temporary file in the default temporary directory with the default permissions for newly created files when uploading a file parameter through the CLI, potentially allowing attackers with access to the Jenkins controller file system to read and write the file before it is used.",
 	"affected": [
 		{
 			"package": {
@@ -30,12 +30,6 @@
 						},
 						{
 							"fixed": "2.375.4"
-						},
-						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "2.394.0"
 						}
 					]
 				}
@@ -53,7 +47,6 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:-:*:*:*",
 			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
 		],
 		"severity": "Medium"

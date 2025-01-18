@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-consul-2020-12797",
-	"modified": "2024-08-21T15:58:47.260202Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:55:03.903Z",
 	"aliases": [
 		"CVE-2020-12797",
@@ -33,16 +33,21 @@
 							"fixed": "1.6.6"
 						},
 						{
-							"introduced": "1.4.0"
-						},
-						{
-							"fixed": "1.6.6"
-						},
-						{
 							"introduced": "1.7.0"
 						},
 						{
 							"fixed": "1.7.4"
+						}
+					]
+				},
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "1.4.0"
+						},
+						{
+							"last_affected": "1.6.6"
 						}
 					]
 				}

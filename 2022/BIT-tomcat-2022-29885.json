@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-tomcat-2022-29885",
-	"modified": "2024-03-11T19:11:34.914181Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:09:24.492Z",
 	"aliases": [
 		"CVE-2022-29885",
@@ -29,25 +29,20 @@
 							"introduced": "8.5.38"
 						},
 						{
-							"fixed": "8.5.78"
+							"last_affected": "8.5.78"
 						},
 						{
 							"introduced": "9.0.13"
 						},
 						{
-							"fixed": "9.0.62"
+							"last_affected": "9.0.62"
 						},
 						{
 							"introduced": "10.0.0"
 						},
 						{
-							"fixed": "10.0.20"
-						}
-					]
-				},
-				{
-					"type": "SEMVER",
-					"events": [
+							"last_affected": "10.0.20"
+						},
 						{
 							"introduced": "10.1.0-milestone1"
 						},

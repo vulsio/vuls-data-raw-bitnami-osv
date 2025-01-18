@@ -1,13 +1,13 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-magento-2020-9578",
-	"modified": "2024-03-06T12:28:04.791401Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:05:29.409Z",
 	"aliases": [
 		"CVE-2020-9578",
 		"GHSA-724x-gqhv-9c5x"
 	],
-	"details": "Magento versions 2.3.4 and earlier, 2.2.11 and earlier (see note), 1.14.4.4 and earlier, and 1.9.4.4 and earlier have a command injection vulnerability. Successful exploitation could lead to arbitrary code execution.",
+	"details": "Magento versions 2.3.4 and earlier, 2.2.11 and earlier (see note) have a command injection vulnerability. Successful exploitation could lead to arbitrary code execution.",
 	"affected": [
 		{
 			"package": {
@@ -29,13 +29,13 @@
 							"introduced": "2.2.0"
 						},
 						{
-							"fixed": "2.2.11"
+							"last_affected": "2.2.11"
 						},
 						{
 							"introduced": "2.3.0"
 						},
 						{
-							"fixed": "2.3.4"
+							"last_affected": "2.3.4"
 						}
 					]
 				}
@@ -55,7 +55,6 @@
 		"cpes": [
 			"cpe:2.3:a:magento:magento:*:*:*:*:commerce:*:*:*",
 			"cpe:2.3:a:magento:magento:*:*:*:*:community:*:*:*",
-			"cpe:2.3:a:magento:magento:*:*:*:*:enterprise:*:*:*",
 			"cpe:2.3:a:magento:magento:*:*:*:*:open_source:*:*:*"
 		],
 		"severity": "Critical"

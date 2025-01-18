@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-envoy-2020-8663",
-	"modified": "2024-05-19T02:24:34.219047Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:59:37.479Z",
 	"aliases": [
 		"CVE-2020-8663"
@@ -28,19 +28,19 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1.12.4"
+							"last_affected": "1.12.4"
 						},
 						{
 							"introduced": "1.13.0"
 						},
 						{
-							"fixed": "1.13.2"
+							"last_affected": "1.13.2"
 						},
 						{
 							"introduced": "1.14.0"
 						},
 						{
-							"fixed": "1.14.2"
+							"last_affected": "1.14.2"
 						}
 					]
 				}

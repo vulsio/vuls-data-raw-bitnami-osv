@@ -1,13 +1,13 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-jenkins-2020-2105",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:06:09.571Z",
 	"aliases": [
 		"CVE-2020-2105",
 		"GHSA-7xp8-7wqx-5hqx"
 	],
-	"details": "REST API endpoints in Jenkins 2.218 and earlier, LTS 2.204.1 and earlier were vulnerable to clickjacking attacks.",
+	"details": "REST API endpoints in Jenkins LTS 2.204.1 and earlier were vulnerable to clickjacking attacks.",
 	"affected": [
 		{
 			"package": {
@@ -29,13 +29,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "2.204.1"
-						},
-						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "2.218.0"
+							"last_affected": "2.204.1"
 						}
 					]
 				}
@@ -73,7 +67,6 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:-:*:*:*",
 			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
 		],
 		"severity": "Medium"

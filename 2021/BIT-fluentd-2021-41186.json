@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-fluentd-2021-41186",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:52:03.183Z",
 	"aliases": [
 		"CVE-2021-41186",
@@ -29,7 +29,7 @@
 							"introduced": "0.14.14"
 						},
 						{
-							"fixed": "1.14.1"
+							"last_affected": "1.14.1"
 						}
 					]
 				}

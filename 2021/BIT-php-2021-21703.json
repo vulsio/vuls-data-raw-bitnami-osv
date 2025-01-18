@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2021-21703",
-	"modified": "2025-01-15T08:56:40.454182Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:05:23.578Z",
 	"aliases": [
 		"BIT-php-min-2021-21703",
@@ -26,12 +26,6 @@
 					"type": "SEMVER",
 					"events": [
 						{
-							"introduced": "7.3.0"
-						},
-						{
-							"fixed": "7.3.31"
-						},
-						{
 							"introduced": "7.4.0"
 						},
 						{
@@ -42,6 +36,17 @@
 						},
 						{
 							"fixed": "8.0.12"
+						}
+					]
+				},
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "7.3.0"
+						},
+						{
+							"last_affected": "7.3.31"
 						}
 					]
 				}

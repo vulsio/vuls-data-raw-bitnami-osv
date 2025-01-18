@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-ruby-2020-10933",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:06:11.096Z",
 	"aliases": [
 		"CVE-2020-10933"
@@ -28,19 +28,14 @@
 							"introduced": "2.5.0"
 						},
 						{
-							"fixed": "2.5.7"
+							"last_affected": "2.5.7"
 						},
 						{
 							"introduced": "2.6.0"
 						},
 						{
-							"fixed": "2.6.5"
-						}
-					]
-				},
-				{
-					"type": "SEMVER",
-					"events": [
+							"last_affected": "2.6.5"
+						},
 						{
 							"introduced": "2.7.0"
 						},

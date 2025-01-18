@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2020-7062",
-	"modified": "2025-01-15T08:57:00.019759Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:07:23.066Z",
 	"aliases": [
 		"BIT-php-min-2020-7062",
@@ -29,19 +29,19 @@
 							"introduced": "7.2.0"
 						},
 						{
-							"fixed": "7.2.27"
+							"last_affected": "7.2.27"
 						},
 						{
 							"introduced": "7.3.0"
 						},
 						{
-							"fixed": "7.3.14"
+							"last_affected": "7.3.14"
 						},
 						{
 							"introduced": "7.4.0"
 						},
 						{
-							"fixed": "7.4.2"
+							"last_affected": "7.4.2"
 						}
 					]
 				}

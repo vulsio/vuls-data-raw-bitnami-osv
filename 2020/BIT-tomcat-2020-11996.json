@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-tomcat-2020-11996",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:11:51.472Z",
 	"aliases": [
 		"CVE-2020-11996",
@@ -29,19 +29,14 @@
 							"introduced": "8.5.0"
 						},
 						{
-							"fixed": "8.5.55"
+							"last_affected": "8.5.55"
 						},
 						{
 							"introduced": "9.0.0"
 						},
 						{
-							"fixed": "9.0.35"
-						}
-					]
-				},
-				{
-					"type": "SEMVER",
-					"events": [
+							"last_affected": "9.0.35"
+						},
 						{
 							"introduced": "9.0.0-milestone1"
 						},

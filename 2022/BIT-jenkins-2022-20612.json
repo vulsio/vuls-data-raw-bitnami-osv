@@ -1,13 +1,13 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-jenkins-2022-20612",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:58:16.486Z",
 	"aliases": [
 		"CVE-2022-20612",
 		"GHSA-p92q-7fhh-mq35"
 	],
-	"details": "A cross-site request forgery (CSRF) vulnerability in Jenkins 2.329 and earlier, LTS 2.319.1 and earlier allows attackers to trigger build of job without parameters when no security realm is set.",
+	"details": "A cross-site request forgery (CSRF) vulnerability in Jenkins LTS 2.319.1 and earlier allows attackers to trigger build of job without parameters when no security realm is set.",
 	"affected": [
 		{
 			"package": {
@@ -29,13 +29,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "2.319.1"
-						},
-						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "2.329.0"
+							"last_affected": "2.319.1"
 						}
 					]
 				}
@@ -61,7 +55,6 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:-:*:*:*",
 			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
 		],
 		"severity": "Medium"

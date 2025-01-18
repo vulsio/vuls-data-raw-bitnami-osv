@@ -1,13 +1,13 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-jenkins-2021-21688",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:00:37.476Z",
 	"aliases": [
 		"CVE-2021-21688",
 		"GHSA-m9hr-259f-2v23"
 	],
-	"details": "The agent-to-controller security check FilePath#reading(FileVisitor) in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not reject any operations, allowing users to have unrestricted read access using certain operations (creating archives, FilePath#copyRecursiveTo).",
+	"details": "The agent-to-controller security check FilePath#reading(FileVisitor) in Jenkins LTS 2.303.2 and earlier does not reject any operations, allowing users to have unrestricted read access using certain operations (creating archives, FilePath#copyRecursiveTo).",
 	"affected": [
 		{
 			"package": {
@@ -30,12 +30,6 @@
 						},
 						{
 							"fixed": "2.303.3"
-						},
-						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "2.319.0"
 						}
 					]
 				}
@@ -53,7 +47,6 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:-:*:*:*",
 			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
 		],
 		"severity": "High"

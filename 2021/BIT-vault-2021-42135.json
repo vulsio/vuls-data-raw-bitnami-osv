@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-vault-2021-42135",
-	"modified": "2024-08-21T15:27:04.097392Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:10:28.289Z",
 	"aliases": [
 		"CVE-2021-42135",
@@ -30,7 +30,7 @@
 							"introduced": "1.8.0"
 						},
 						{
-							"fixed": "1.8.4"
+							"last_affected": "1.8.4"
 						}
 					]
 				}

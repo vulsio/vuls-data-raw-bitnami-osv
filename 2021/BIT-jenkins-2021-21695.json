@@ -1,13 +1,13 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-jenkins-2021-21695",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:59:24.817Z",
 	"aliases": [
 		"CVE-2021-21695",
 		"GHSA-cvvm-4cr9-r436"
 	],
-	"details": "FilePath#listFiles lists files outside directories that agents are allowed to access when following symbolic links in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier.",
+	"details": "FilePath#listFiles lists files outside directories that agents are allowed to access when following symbolic links in Jenkins LTS 2.303.2 and earlier.",
 	"affected": [
 		{
 			"package": {
@@ -30,12 +30,6 @@
 						},
 						{
 							"fixed": "2.303.3"
-						},
-						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "2.319.0"
 						}
 					]
 				}
@@ -57,7 +51,6 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:-:*:*:*",
 			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
 		],
 		"severity": "High"

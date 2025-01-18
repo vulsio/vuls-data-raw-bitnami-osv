@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-jenkins-2023-44487",
-	"modified": "2024-12-16T15:26:49.544423Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:54:03.578Z",
 	"aliases": [
 		"BIT-apisix-2023-44487",
@@ -48,12 +48,6 @@
 				{
 					"type": "SEMVER",
 					"events": [
-						{
-							"introduced": "2.415.0"
-						},
-						{
-							"fixed": "2.428.0"
-						},
 						{
 							"introduced": "0"
 						},
@@ -636,9 +630,7 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:-:*:*:*",
-			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*",
-			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:maven:*:*"
+			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
 		],
 		"severity": "High"
 	}

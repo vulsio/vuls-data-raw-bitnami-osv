@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-mlflow-2024-37056",
-	"modified": "2024-10-22T05:29:00.053225Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-06-08T07:26:02.015Z",
 	"aliases": [
 		"CGA-5rg5-hmwm-f62r",
@@ -30,7 +30,7 @@
 							"introduced": "1.23.0"
 						},
 						{
-							"fixed": "2.13.1"
+							"last_affected": "2.13.1"
 						}
 					]
 				}

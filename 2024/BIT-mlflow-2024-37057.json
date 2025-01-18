@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-mlflow-2024-37057",
-	"modified": "2024-10-22T05:29:02.304211Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-06-10T11:49:36.085Z",
 	"aliases": [
 		"CGA-p6jj-p5p6-w8x6",
@@ -30,7 +30,7 @@
 							"introduced": "2.0.0"
 						},
 						{
-							"fixed": "2.13.1"
+							"last_affected": "2.13.1"
 						}
 					]
 				}

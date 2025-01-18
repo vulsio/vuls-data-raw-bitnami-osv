@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-sqlite-2020-13434",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:08:22.164Z",
 	"aliases": [
 		"CVE-2020-13434"
@@ -28,7 +28,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "3.32.0"
+							"last_affected": "3.32.0"
 						}
 					]
 				}

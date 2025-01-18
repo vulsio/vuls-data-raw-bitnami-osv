@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-scylladb-2023-33972",
-	"modified": "2025-01-14T11:56:46.377607Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-05-14T14:38:04.732Z",
 	"aliases": [
 		"CVE-2023-33972"
@@ -28,7 +28,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "5.2.8"
+							"last_affected": "5.2.8"
 						}
 					]
 				}

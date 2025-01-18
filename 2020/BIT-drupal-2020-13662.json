@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-drupal-2020-13662",
-	"modified": "2024-04-23T22:58:54.569368Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:58:54.899Z",
 	"aliases": [
 		"CVE-2020-13662",
@@ -29,7 +29,7 @@
 							"introduced": "7.0.0"
 						},
 						{
-							"fixed": "7.70.0"
+							"last_affected": "7.70.0"
 						}
 					]
 				}

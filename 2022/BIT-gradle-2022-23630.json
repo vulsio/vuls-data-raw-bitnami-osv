@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-gradle-2022-23630",
-	"modified": "2025-01-14T11:11:56.645543Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:53:42.475Z",
 	"aliases": [
 		"CVE-2022-23630"
@@ -28,7 +28,7 @@
 							"introduced": "6.2.0"
 						},
 						{
-							"fixed": "7.3.3"
+							"last_affected": "7.3.3"
 						}
 					]
 				}

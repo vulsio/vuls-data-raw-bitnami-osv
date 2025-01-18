@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-gitea-2021-3382",
-	"modified": "2024-06-04T16:56:35.313367Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:55:07.678Z",
 	"aliases": [
 		"CVE-2021-3382",
@@ -30,7 +30,7 @@
 							"introduced": "1.9.0"
 						},
 						{
-							"fixed": "1.13.1"
+							"last_affected": "1.13.1"
 						}
 					]
 				}

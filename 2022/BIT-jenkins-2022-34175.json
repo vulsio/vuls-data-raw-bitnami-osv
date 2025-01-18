@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-jenkins-2022-34175",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:57:08.401Z",
 	"aliases": [
 		"CVE-2022-34175",
@@ -29,7 +29,7 @@
 							"introduced": "2.335.0"
 						},
 						{
-							"fixed": "2.355.0"
+							"last_affected": "2.355.0"
 						}
 					]
 				}

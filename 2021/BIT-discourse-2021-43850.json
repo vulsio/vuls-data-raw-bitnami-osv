@@ -1,12 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2021-43850",
-	"modified": "2025-01-14T10:11:59.250129Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:08:27.960Z",
 	"aliases": [
 		"CVE-2021-43850"
 	],
-	"details": "Discourse is an open source platform for community discussion. In affected versions admins users can trigger a Denial of Service attack via the `/message-bus/_diagnostics` path. The impact of this vulnerability is greater on multisite Discourse instances (where multiple forums are served from a single application server) where any admin user on any of the forums are able to visit the `/message-bus/_diagnostics` path. The problem has been patched. Please upgrade to 2.8.0.beta10 or 2.7.12. No workarounds for this issue exist.",
+	"details": "Discourse is an open source platform for community discussion. In affected versions admins users can trigger a Denial of Service attack via the `/message-bus/_diagnostics` path. The impact of this vulnerability is greater on multisite Discourse instances (where multiple forums are served from a single application server) where any admin user on any of the forums are able to visit the `/message-bus/_diagnostics` path. The problem has been patched. Please upgrade to 2.7.12. No workarounds for this issue exist.",
 	"affected": [
 		{
 			"package": {
@@ -31,65 +31,6 @@
 							"fixed": "2.7.12"
 						}
 					]
-				},
-				{
-					"type": "SEMVER",
-					"events": [
-						{
-							"introduced": "2.8.0-beta1"
-						},
-						{
-							"last_affected": "2.8.0-beta1"
-						},
-						{
-							"introduced": "2.8.0-beta2"
-						},
-						{
-							"last_affected": "2.8.0-beta2"
-						},
-						{
-							"introduced": "2.8.0-beta3"
-						},
-						{
-							"last_affected": "2.8.0-beta3"
-						},
-						{
-							"introduced": "2.8.0-beta4"
-						},
-						{
-							"last_affected": "2.8.0-beta4"
-						},
-						{
-							"introduced": "2.8.0-beta5"
-						},
-						{
-							"last_affected": "2.8.0-beta5"
-						},
-						{
-							"introduced": "2.8.0-beta6"
-						},
-						{
-							"last_affected": "2.8.0-beta6"
-						},
-						{
-							"introduced": "2.8.0-beta7"
-						},
-						{
-							"last_affected": "2.8.0-beta7"
-						},
-						{
-							"introduced": "2.8.0-beta8"
-						},
-						{
-							"last_affected": "2.8.0-beta8"
-						},
-						{
-							"introduced": "2.8.0-beta9"
-						},
-						{
-							"last_affected": "2.8.0-beta9"
-						}
-					]
 				}
 			],
 			"database_specific": {
@@ -109,16 +50,7 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:discourse:discourse:*:*:*:*:*:*:*:*",
-			"cpe:2.3:a:discourse:discourse:2.8.0:beta1:*:*:*:*:*:*",
-			"cpe:2.3:a:discourse:discourse:2.8.0:beta2:*:*:*:*:*:*",
-			"cpe:2.3:a:discourse:discourse:2.8.0:beta3:*:*:*:*:*:*",
-			"cpe:2.3:a:discourse:discourse:2.8.0:beta4:*:*:*:*:*:*",
-			"cpe:2.3:a:discourse:discourse:2.8.0:beta5:*:*:*:*:*:*",
-			"cpe:2.3:a:discourse:discourse:2.8.0:beta6:*:*:*:*:*:*",
-			"cpe:2.3:a:discourse:discourse:2.8.0:beta7:*:*:*:*:*:*",
-			"cpe:2.3:a:discourse:discourse:2.8.0:beta8:*:*:*:*:*:*",
-			"cpe:2.3:a:discourse:discourse:2.8.0:beta9:*:*:*:*:*:*"
+			"cpe:2.3:a:discourse:discourse:*:*:*:*:*:*:*:*"
 		],
 		"severity": "Medium"
 	}

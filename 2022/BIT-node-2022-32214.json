@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-2022-32214",
-	"modified": "2024-12-16T15:27:02.216633Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:03:58.198Z",
 	"aliases": [
 		"BIT-node-min-2022-32214",
@@ -27,22 +27,10 @@
 					"type": "SEMVER",
 					"events": [
 						{
-							"introduced": "14.0.0"
-						},
-						{
-							"fixed": "14.14.0"
-						},
-						{
 							"introduced": "14.15.0"
 						},
 						{
 							"fixed": "14.20.0"
-						},
-						{
-							"introduced": "16.0.0"
-						},
-						{
-							"fixed": "16.12.0"
 						},
 						{
 							"introduced": "16.13.0"
@@ -55,6 +43,23 @@
 						},
 						{
 							"fixed": "18.5.0"
+						}
+					]
+				},
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "14.0.0"
+						},
+						{
+							"last_affected": "14.14.0"
+						},
+						{
+							"introduced": "16.0.0"
+						},
+						{
+							"last_affected": "16.12.0"
 						}
 					]
 				}

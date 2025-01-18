@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-wordpress-multisite-2024-3756",
-	"modified": "2024-07-18T16:12:10.057879Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-07-18T07:40:35.878Z",
 	"aliases": [
 		"BIT-wordpress-2024-3756",
@@ -29,7 +29,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1.2.1"
+							"last_affected": "1.2.1"
 						}
 					]
 				}

@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-python-2024-0450",
-	"modified": "2024-12-13T12:59:30.377Z",
+	"modified": "2025-01-17T17:44:24.690532Z",
 	"published": "2024-12-13T12:41:10.011Z",
 	"aliases": [
+		"BIT-python-min-2024-0450",
 		"CVE-2024-0450",
 		"PSF-2024-2"
 	],

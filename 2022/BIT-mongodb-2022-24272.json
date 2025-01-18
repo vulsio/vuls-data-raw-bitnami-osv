@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-mongodb-2022-24272",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:57:01.078Z",
 	"aliases": [
 		"CVE-2022-24272"
@@ -28,7 +28,7 @@
 							"introduced": "5.0.0"
 						},
 						{
-							"fixed": "5.0.6"
+							"last_affected": "5.0.6"
 						}
 					]
 				}

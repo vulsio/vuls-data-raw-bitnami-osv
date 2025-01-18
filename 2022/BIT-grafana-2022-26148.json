@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-grafana-2022-26148",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:57:18.267Z",
 	"aliases": [
 		"CVE-2022-26148"
@@ -28,7 +28,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "7.3.4"
+							"last_affected": "7.3.4"
 						}
 					]
 				}

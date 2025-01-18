@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-mattermost-2023-6727",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:56:33.283Z",
 	"aliases": [
 		"CVE-2023-6727"
@@ -28,13 +28,13 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "8.1.5"
+							"last_affected": "8.1.5"
 						},
 						{
 							"introduced": "9.2.0"
 						},
 						{
-							"fixed": "9.2.1"
+							"last_affected": "9.2.1"
 						}
 					]
 				}

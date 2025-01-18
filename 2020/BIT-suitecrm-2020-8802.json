@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-suitecrm-2020-8802",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:10:36.510Z",
 	"aliases": [
 		"CVE-2020-8802"
@@ -28,7 +28,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "7.11.11"
+							"last_affected": "7.11.11"
 						}
 					]
 				}

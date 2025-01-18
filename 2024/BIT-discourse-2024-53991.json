@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2024-53991",
-	"modified": "2024-12-23T19:57:13.077980Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-12-23T19:10:14.117Z",
 	"aliases": [
 		"CVE-2024-53991"
@@ -46,8 +46,8 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:discourse:discourse:*:*:*:*:beta:*:*:*",
-			"cpe:2.3:a:discourse:discourse:*:*:*:*:stable:*:*:*"
+			"cpe:2.3:a:discourse:discourse:*:*:*:*:stable:*:*:*",
+			"cpe:2.3:a:discourse:discourse:*:*:*:*:*:*:*:*"
 		],
 		"severity": "High"
 	}

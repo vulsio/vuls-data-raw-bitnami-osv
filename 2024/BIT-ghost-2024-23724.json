@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-ghost-2024-23724",
-	"modified": "2024-09-06T08:12:00.005994Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-09-06T07:10:49.367Z",
 	"aliases": [
 		"CVE-2024-23724",
@@ -29,7 +29,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "5.76.0"
+							"last_affected": "5.76.0"
 						}
 					]
 				}

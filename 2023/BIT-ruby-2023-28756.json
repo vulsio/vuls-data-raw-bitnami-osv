@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-ruby-2023-28756",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:04:05.363Z",
 	"aliases": [
 		"CVE-2023-28756",
@@ -29,7 +29,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "2.7.7"
+							"last_affected": "2.7.7"
 						}
 					]
 				}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-mattermost-2024-23319",
-	"modified": "2024-03-18T17:56:29.703061Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:56:00.982Z",
 	"aliases": [
 		"CVE-2024-23319",
@@ -30,7 +30,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "8.1.7"
+							"last_affected": "8.1.7"
 						}
 					]
 				}

@@ -1,13 +1,13 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-magento-2020-3758",
-	"modified": "2024-03-06T12:28:09.682210Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:06:03.362Z",
 	"aliases": [
 		"CVE-2020-3758",
 		"GHSA-p5q3-xg47-653m"
 	],
-	"details": "Magento versions 2.3.3 and earlier, 2.2.10 and earlier, 1.14.4.3 and earlier, and 1.9.4.3 and earlier have a stored cross-site scripting vulnerability. Successful exploitation could lead to sensitive information disclosure.",
+	"details": "Magento versions 2.3.3 and earlier, 2.2.10 and earlier have a stored cross-site scripting vulnerability. Successful exploitation could lead to sensitive information disclosure.",
 	"affected": [
 		{
 			"package": {
@@ -29,13 +29,13 @@
 							"introduced": "2.2.0"
 						},
 						{
-							"fixed": "2.2.10"
+							"last_affected": "2.2.10"
 						},
 						{
 							"introduced": "2.3.0"
 						},
 						{
-							"fixed": "2.3.3"
+							"last_affected": "2.3.3"
 						}
 					]
 				}
@@ -55,7 +55,6 @@
 		"cpes": [
 			"cpe:2.3:a:magento:magento:*:*:*:*:commerce:*:*:*",
 			"cpe:2.3:a:magento:magento:*:*:*:*:community:*:*:*",
-			"cpe:2.3:a:magento:magento:*:*:*:*:enterprise:*:*:*",
 			"cpe:2.3:a:magento:magento:*:*:*:*:open_source:*:*:*"
 		],
 		"severity": "Medium"

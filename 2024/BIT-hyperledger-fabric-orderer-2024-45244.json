@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-hyperledger-fabric-orderer-2024-45244",
-	"modified": "2024-09-13T07:57:00.697808Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-09-13T07:06:30.781Z",
 	"aliases": [
 		"BIT-hyperledger-fabric-peer-2024-45244",
@@ -32,7 +32,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "2.5.9"
+							"last_affected": "2.5.9"
 						}
 					]
 				}

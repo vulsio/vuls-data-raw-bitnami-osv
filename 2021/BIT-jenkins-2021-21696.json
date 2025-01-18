@@ -1,13 +1,13 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-jenkins-2021-21696",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:59:13.605Z",
 	"aliases": [
 		"CVE-2021-21696",
 		"GHSA-c5r9-rx53-q3gf"
 	],
-	"details": "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not limit agent read/write access to the libs/ directory inside build directories when using the FilePath APIs, allowing attackers in control of agent processes to replace the code of a trusted library with a modified variant. This results in unsandboxed code execution in the Jenkins controller process.",
+	"details": "Jenkins LTS 2.303.2 and earlier does not limit agent read/write access to the libs/ directory inside build directories when using the FilePath APIs, allowing attackers in control of agent processes to replace the code of a trusted library with a modified variant. This results in unsandboxed code execution in the Jenkins controller process.",
 	"affected": [
 		{
 			"package": {
@@ -29,13 +29,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "2.303.2"
-						},
-						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "2.318.0"
+							"last_affected": "2.303.2"
 						}
 					]
 				}
@@ -57,7 +51,6 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:-:*:*:*",
 			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
 		],
 		"severity": "Critical"

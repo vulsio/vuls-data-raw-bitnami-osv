@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-mlflow-2024-37061",
-	"modified": "2024-07-18T07:56:34.499Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-06-08T07:24:39.817Z",
 	"aliases": [
 		"CVE-2024-37061",
@@ -29,7 +29,7 @@
 							"introduced": "1.11.0"
 						},
 						{
-							"fixed": "2.13.1"
+							"last_affected": "2.13.1"
 						}
 					]
 				}

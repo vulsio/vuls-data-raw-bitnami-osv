@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-vault-2022-36129",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:09:58.491Z",
 	"aliases": [
 		"CVE-2022-36129"
@@ -28,19 +28,14 @@
 							"introduced": "1.7.0"
 						},
 						{
-							"fixed": "1.9.7"
+							"last_affected": "1.9.7"
 						},
 						{
 							"introduced": "1.10.0"
 						},
 						{
-							"fixed": "1.10.4"
-						}
-					]
-				},
-				{
-					"type": "SEMVER",
-					"events": [
+							"last_affected": "1.10.4"
+						},
 						{
 							"introduced": "1.11.0"
 						},

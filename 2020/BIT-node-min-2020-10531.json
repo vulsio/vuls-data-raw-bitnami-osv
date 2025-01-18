@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-min-2020-10531",
-	"modified": "2024-12-16T15:27:10.003584Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-12-16T14:07:38.625Z",
 	"aliases": [
 		"BIT-node-2020-10531",
@@ -26,16 +26,21 @@
 					"type": "SEMVER",
 					"events": [
 						{
-							"introduced": "10.0.0"
-						},
-						{
-							"fixed": "10.12.0"
-						},
-						{
 							"introduced": "10.13.0"
 						},
 						{
 							"fixed": "10.21.0"
+						}
+					]
+				},
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "10.0.0"
+						},
+						{
+							"last_affected": "10.12.0"
 						}
 					]
 				}

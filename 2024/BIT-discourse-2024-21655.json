@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-discourse-2024-21655",
-	"modified": "2025-01-14T12:27:06.701498Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T10:51:21.402Z",
 	"aliases": [
 		"CVE-2024-21655"
@@ -31,29 +31,6 @@
 							"fixed": "3.1.4"
 						}
 					]
-				},
-				{
-					"type": "SEMVER",
-					"events": [
-						{
-							"introduced": "3.2.0-beta1"
-						},
-						{
-							"last_affected": "3.2.0-beta1"
-						},
-						{
-							"introduced": "3.2.0-beta2"
-						},
-						{
-							"last_affected": "3.2.0-beta2"
-						},
-						{
-							"introduced": "3.2.0-beta3"
-						},
-						{
-							"last_affected": "3.2.0-beta3"
-						}
-					]
 				}
 			],
 			"database_specific": {
@@ -70,9 +47,7 @@
 	"database_specific": {
 		"cpes": [
 			"cpe:2.3:a:discourse:discourse:*:*:*:*:stable:*:*:*",
-			"cpe:2.3:a:discourse:discourse:3.2.0:beta1:*:*:beta:*:*:*",
-			"cpe:2.3:a:discourse:discourse:3.2.0:beta2:*:*:beta:*:*:*",
-			"cpe:2.3:a:discourse:discourse:3.2.0:beta3:*:*:beta:*:*:*"
+			"cpe:2.3:a:discourse:discourse:*:*:*:*:*:*:*:*"
 		],
 		"severity": "Medium"
 	}

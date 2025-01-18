@@ -1,13 +1,13 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-jenkins-2021-21611",
-	"modified": "2024-03-06T11:25:28.861Z",
+	"modified": "2025-01-17T15:26:01.971Z",
 	"published": "2024-03-06T11:02:34.499Z",
 	"aliases": [
 		"CVE-2021-21611",
 		"GHSA-mj7q-cmf3-mg7h"
 	],
-	"details": "Jenkins 2.274 and earlier, LTS 2.263.1 and earlier does not escape display names and IDs of item types shown on the New Item page, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to specify display names or IDs of item types.",
+	"details": "Jenkins LTS 2.263.1 and earlier does not escape display names and IDs of item types shown on the New Item page, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to specify display names or IDs of item types.",
 	"affected": [
 		{
 			"package": {
@@ -29,13 +29,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "2.263.1"
-						},
-						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "2.274.0"
+							"last_affected": "2.263.1"
 						}
 					]
 				}
@@ -53,7 +47,6 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:-:*:*:*",
 			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
 		],
 		"severity": "Medium"
