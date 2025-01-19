@@ -1,11 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-airflow-2024-39863",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-19T07:56:44.681970Z",
 	"published": "2024-07-19T07:16:29.237Z",
 	"aliases": [
 		"CVE-2024-39863",
-		"GHSA-j482-47xf-p25c"
+		"GHSA-j482-47xf-p25c",
+		"PYSEC-2024-189"
 	],
 	"details": "Apache Airflow versions before 2.9.3 have a vulnerability that allows an authenticated attacker to inject a malicious link when installing a provider. Users are recommended to upgrade to version 2.9.3, which fixes this issue.",
 	"affected": [
