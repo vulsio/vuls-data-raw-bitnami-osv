@@ -1,11 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-airflow-2024-41937",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-19T04:57:03.218076Z",
 	"published": "2024-08-23T07:16:07.397Z",
 	"aliases": [
 		"CVE-2024-41937",
-		"GHSA-w7cp-g8v7-r54m"
+		"GHSA-w7cp-g8v7-r54m",
+		"PYSEC-2024-181"
 	],
 	"details": "Apache Airflow, versions before 2.10.0, have a vulnerability that allows the developer of a malicious provider to execute a cross-site scripting attack when clicking on a provider documentation link. This would require the provider to be installed on the web server and the user to click the provider link.Users should upgrade to 2.10.0 or later, which fixes this vulnerability.",
 	"affected": [

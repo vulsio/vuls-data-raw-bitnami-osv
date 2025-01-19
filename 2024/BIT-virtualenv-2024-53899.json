@@ -1,11 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-virtualenv-2024-53899",
-	"modified": "2025-01-13T17:12:00.314990Z",
+	"modified": "2025-01-19T04:56:52.913372Z",
 	"published": "2024-11-27T19:23:31.279Z",
 	"aliases": [
 		"CVE-2024-53899",
-		"GHSA-rqc4-2hc7-8c8v"
+		"GHSA-rqc4-2hc7-8c8v",
+		"PYSEC-2024-187"
 	],
 	"details": "virtualenv before 20.26.6 allows command injection through the activation scripts for a virtual environment. Magic template strings are not quoted correctly when replacing. NOTE: this is not the same as CVE-2024-9287.",
 	"affected": [
