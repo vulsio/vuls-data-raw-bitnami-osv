@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-jenkins-2024-47803",
-	"modified": "2025-01-17T15:26:01.971Z",
+	"modified": "2025-01-20T07:55:28.351Z",
 	"published": "2024-10-04T07:09:20.135Z",
 	"aliases": [
 		"CVE-2024-47803",
@@ -47,7 +47,8 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
+			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*",
+			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:maven:*:*"
 		],
 		"severity": "Medium"
 	}

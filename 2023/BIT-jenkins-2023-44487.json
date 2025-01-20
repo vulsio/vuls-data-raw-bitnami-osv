@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-jenkins-2023-44487",
-	"modified": "2025-01-17T15:26:01.971Z",
+	"modified": "2025-01-20T07:55:28.351Z",
 	"published": "2024-03-06T10:54:03.578Z",
 	"aliases": [
 		"BIT-apisix-2023-44487",
@@ -630,7 +630,8 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*"
+			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:lts:*:*:*",
+			"cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:maven:*:*"
 		],
 		"severity": "High"
 	}
