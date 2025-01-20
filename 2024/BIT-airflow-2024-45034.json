@@ -1,11 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-airflow-2024-45034",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-01-19T22:56:51.960178Z",
 	"published": "2024-09-10T07:04:17.732Z",
 	"aliases": [
 		"CVE-2024-45034",
-		"GHSA-92xg-gmrq-5c3w"
+		"GHSA-92xg-gmrq-5c3w",
+		"PYSEC-2024-212"
 	],
 	"details": "Apache Airflow versions before 2.10.1 have a vulnerability that allows DAG authors to add local settings to the DAG folder and get it executed by the scheduler, where the scheduler is not supposed to execute code submitted by the DAG author. Users are advised to upgrade to version 2.10.1 or later, which has fixed the vulnerability.",
 	"affected": [
