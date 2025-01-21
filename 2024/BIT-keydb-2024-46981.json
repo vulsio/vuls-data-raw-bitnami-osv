@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-keydb-2024-46981",
-	"modified": "2025-01-14T12:27:10.579004Z",
+	"modified": "2025-01-21T07:39:55.367Z",
 	"published": "2025-01-08T07:13:21.212Z",
 	"aliases": [
 		"BIT-redis-2024-46981",
@@ -69,6 +69,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/redis/redis/security/advisories/GHSA-39h2-x6c4-6w4c"
+		},
+		{
+			"type": "WEB",
+			"url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00018.html"
 		}
 	],
 	"database_specific": {
