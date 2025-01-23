@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-git-2024-50349",
-	"modified": "2025-01-22T07:39:37.981Z",
+	"modified": "2025-01-23T07:41:14.685Z",
 	"published": "2025-01-16T07:10:18.504Z",
 	"aliases": [
 		"CVE-2024-50349",
@@ -65,7 +65,7 @@
 							"introduced": "2.47.0"
 						},
 						{
-							"fixed": "2.47.1"
+							"fixed": "2.47.2"
 						},
 						{
 							"introduced": "2.48.0"
