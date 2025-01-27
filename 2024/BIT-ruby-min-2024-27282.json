@@ -1,10 +1,10 @@
 {
 	"schema_version": "1.6.0",
-	"id": "BIT-ruby-2024-27282",
+	"id": "BIT-ruby-min-2024-27282",
 	"modified": "2025-01-27T08:58:42.429162Z",
-	"published": "2024-06-04T09:56:49.809Z",
+	"published": "2025-01-27T07:19:56.317Z",
 	"aliases": [
-		"BIT-ruby-min-2024-27282",
+		"BIT-ruby-2024-27282",
 		"CVE-2024-27282"
 	],
 	"details": "An issue was discovered in Ruby 3.x through 3.3.0. If attacker-supplied data is provided to the Ruby regex compiler, it is possible to extract arbitrary heap data relative to the start of the text, including pointers and sensitive strings. The fixed versions are 3.0.7, 3.1.5, 3.2.4, and 3.3.1.",
@@ -12,8 +12,8 @@
 		{
 			"package": {
 				"ecosystem": "Bitnami",
-				"name": "ruby",
-				"purl": "pkg:bitnami/ruby"
+				"name": "ruby-min",
+				"purl": "pkg:bitnami/ruby-min"
 			},
 			"severity": [
 				{
@@ -53,7 +53,7 @@
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/bitnami/vulndb/tree/main/data/ruby/BIT-ruby-2024-27282.json"
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/ruby-min/BIT-ruby-min-2024-27282.json"
 			}
 		}
 	],
@@ -73,7 +73,6 @@
 	],
 	"database_specific": {
 		"cpes": [
-			"cpe:2.3:a:ruby-lang:ruby:*:*:*:*:*:*:*:*",
 			"cpe:2.3:a:ruby-lang:ruby:*:*:*:*:*:ruby:*:*"
 		],
 		"severity": "Medium"

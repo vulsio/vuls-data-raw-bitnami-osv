@@ -1,10 +1,10 @@
 {
 	"schema_version": "1.6.0",
-	"id": "BIT-ruby-2020-10933",
+	"id": "BIT-ruby-min-2020-10933",
 	"modified": "2025-01-27T08:58:46.129388Z",
-	"published": "2024-03-06T11:06:11.096Z",
+	"published": "2025-01-27T07:21:27.718Z",
 	"aliases": [
-		"BIT-ruby-min-2020-10933",
+		"BIT-ruby-2020-10933",
 		"CVE-2020-10933"
 	],
 	"details": "An issue was discovered in Ruby 2.5.x through 2.5.7, 2.6.x through 2.6.5, and 2.7.0. If a victim calls BasicSocket#read_nonblock(requested_size, buffer, exception: false), the method resizes the buffer to fit the requested size, but no data is copied. Thus, the buffer string provides the previous value of the heap. This may expose possibly sensitive data from the interpreter.",
@@ -12,8 +12,8 @@
 		{
 			"package": {
 				"ecosystem": "Bitnami",
-				"name": "ruby",
-				"purl": "pkg:bitnami/ruby"
+				"name": "ruby-min",
+				"purl": "pkg:bitnami/ruby-min"
 			},
 			"severity": [
 				{
@@ -47,7 +47,7 @@
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/bitnami/vulndb/tree/main/data/ruby/BIT-ruby-2020-10933.json"
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/ruby-min/BIT-ruby-min-2020-10933.json"
 			}
 		}
 	],

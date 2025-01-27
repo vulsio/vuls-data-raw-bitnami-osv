@@ -1,10 +1,10 @@
 {
 	"schema_version": "1.6.0",
-	"id": "BIT-ruby-2023-28756",
+	"id": "BIT-ruby-min-2023-28756",
 	"modified": "2025-01-27T08:58:50.093223Z",
-	"published": "2024-03-06T11:04:05.363Z",
+	"published": "2025-01-27T07:20:03.635Z",
 	"aliases": [
-		"BIT-ruby-min-2023-28756",
+		"BIT-ruby-2023-28756",
 		"CVE-2023-28756",
 		"GHSA-fg7x-g82r-94qc"
 	],
@@ -13,8 +13,8 @@
 		{
 			"package": {
 				"ecosystem": "Bitnami",
-				"name": "ruby",
-				"purl": "pkg:bitnami/ruby"
+				"name": "ruby-min",
+				"purl": "pkg:bitnami/ruby-min"
 			},
 			"severity": [
 				{
@@ -36,7 +36,7 @@
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/bitnami/vulndb/tree/main/data/ruby/BIT-ruby-2023-28756.json"
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/ruby-min/BIT-ruby-min-2023-28756.json"
 			}
 		}
 	],

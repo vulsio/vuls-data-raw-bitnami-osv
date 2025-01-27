@@ -1,10 +1,10 @@
 {
 	"schema_version": "1.6.0",
-	"id": "BIT-ruby-2020-5247",
+	"id": "BIT-ruby-min-2020-5247",
 	"modified": "2025-01-27T08:58:35.447928Z",
-	"published": "2024-03-06T11:05:50.672Z",
+	"published": "2025-01-27T07:21:13.232Z",
 	"aliases": [
-		"BIT-ruby-min-2020-5247",
+		"BIT-ruby-2020-5247",
 		"CVE-2020-5247",
 		"GHSA-84j7-475p-hp8v"
 	],
@@ -13,8 +13,8 @@
 		{
 			"package": {
 				"ecosystem": "Bitnami",
-				"name": "ruby",
-				"purl": "pkg:bitnami/ruby"
+				"name": "ruby-min",
+				"purl": "pkg:bitnami/ruby-min"
 			},
 			"severity": [
 				{
@@ -60,7 +60,7 @@
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/bitnami/vulndb/tree/main/data/ruby/BIT-ruby-2020-5247.json"
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/ruby-min/BIT-ruby-min-2020-5247.json"
 			}
 		}
 	],
