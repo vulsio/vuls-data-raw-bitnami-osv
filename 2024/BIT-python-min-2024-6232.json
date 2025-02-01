@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-python-min-2024-6232",
-	"modified": "2025-01-17T17:44:17.609850Z",
+	"modified": "2025-02-01T07:43:18.500Z",
 	"published": "2025-01-17T15:05:38.715Z",
 	"aliases": [
 		"BIT-python-2024-6232",
@@ -108,6 +108,10 @@
 		{
 			"type": "WEB",
 			"url": "https://security.netapp.com/advisory/ntap-20241018-0007/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/python/cpython/commit/34ddb64d088dd7ccc321f6103d23153256caa5d4"
 		}
 	],
 	"database_specific": {

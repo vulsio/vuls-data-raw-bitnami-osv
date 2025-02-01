@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-tomcat-2024-54677",
-	"modified": "2024-12-23T19:57:01.361323Z",
+	"modified": "2025-02-01T07:43:18.500Z",
 	"published": "2024-12-23T19:21:37.716Z",
 	"aliases": [
 		"CVE-2024-54677",
@@ -67,6 +67,10 @@
 		{
 			"type": "WEB",
 			"url": "http://www.openwall.com/lists/oss-security/2024/12/18/1"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20250131-0006/"
 		}
 	],
 	"database_specific": {

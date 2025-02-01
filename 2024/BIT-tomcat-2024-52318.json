@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-tomcat-2024-52318",
-	"modified": "2024-11-27T19:40:48.342Z",
+	"modified": "2025-02-01T07:43:18.500Z",
 	"published": "2024-11-20T07:19:59.288Z",
 	"aliases": [
 		"CVE-2024-52318",
@@ -59,6 +59,10 @@
 		{
 			"type": "WEB",
 			"url": "http://www.openwall.com/lists/oss-security/2024/11/18/4"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.netapp.com/advisory/ntap-20250131-0009/"
 		}
 	],
 	"database_specific": {

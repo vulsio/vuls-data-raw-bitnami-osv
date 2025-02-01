@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-python-2024-12254",
-	"modified": "2025-01-17T17:44:21.078238Z",
+	"modified": "2025-02-01T07:43:18.500Z",
 	"published": "2024-12-10T11:25:37.215Z",
 	"aliases": [
 		"BIT-python-min-2024-12254",
@@ -61,6 +61,10 @@
 		{
 			"type": "WEB",
 			"url": "http://www.openwall.com/lists/oss-security/2024/12/06/1"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/python/cpython/commit/e991ac8f2037d78140e417cc9a9486223eb3e786"
 		}
 	],
 	"database_specific": {
