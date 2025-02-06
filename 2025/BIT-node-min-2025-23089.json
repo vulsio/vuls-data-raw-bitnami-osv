@@ -1,13 +1,13 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-node-min-2025-23089",
-	"modified": "2025-01-27T08:59:01.563126Z",
+	"modified": "2025-02-06T07:42:16.889Z",
 	"published": "2025-01-27T07:15:18.219Z",
 	"aliases": [
 		"BIT-node-2025-23089",
 		"CVE-2025-23089"
 	],
-	"details": "This CVE has been issued to inform users that they are using End-of-Life (EOL) versions of Node.js. These versions are no longer supported and do not receive updates, including security patches. The continued use of EOL versions may expose systems to potential security risks due to unaddressed software vulnerabilities or dependencies (CWE-1104: Use of Unmaintained Third-Party Components).\r\rUsers are advised to upgrade to actively supported versions of Node.js to ensure continued security updates and support.",
+	"details": "NOTE: use of the CVE List to report that a product is unsupported, without reference to a specific defect, is novel and the CVE Program is actively assessing both the validity and potential value of this approach.\r\rThis CVE has been issued to inform users that they are using End-of-Life (EOL) versions of Node.js. These versions are no longer supported and do not receive updates, including security patches. The continued use of EOL versions may expose systems to potential security risks due to unaddressed software vulnerabilities or dependencies (CWE-1104: Use of Unmaintained Third-Party Components).\r\rUsers are advised to upgrade to actively supported versions of Node.js to ensure continued security updates and support.",
 	"affected": [
 		{
 			"package": {
