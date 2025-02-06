@@ -1,8 +1,8 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-python-min-2024-12254",
-	"modified": "2025-02-01T07:43:18.500Z",
-	"published": "2025-01-17T15:06:12.403Z",
+	"modified": "2025-02-06T12:53:47.047Z",
+	"published": "2025-02-06T12:33:16.877Z",
 	"aliases": [
 		"BIT-python-2024-12254",
 		"CVE-2024-12254",
@@ -28,6 +28,15 @@
 					"events": [
 						{
 							"introduced": "3.12.0"
+						},
+						{
+							"fixed": "3.12.9"
+						},
+						{
+							"introduced": "3.13.0"
+						},
+						{
+							"fixed": "3.13.2"
 						}
 					]
 				}
@@ -48,6 +57,10 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://github.com/python/cpython/commit/e991ac8f2037d78140e417cc9a9486223eb3e786"
+		},
+		{
+			"type": "WEB",
 			"url": "https://github.com/python/cpython/issues/127655"
 		},
 		{
@@ -61,10 +74,6 @@
 		{
 			"type": "WEB",
 			"url": "http://www.openwall.com/lists/oss-security/2024/12/06/1"
-		},
-		{
-			"type": "WEB",
-			"url": "https://github.com/python/cpython/commit/e991ac8f2037d78140e417cc9a9486223eb3e786"
 		}
 	],
 	"database_specific": {
