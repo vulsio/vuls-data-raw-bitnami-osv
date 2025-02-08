@@ -1,0 +1,72 @@
+{
+	"schema_version": "1.6.0",
+	"id": "BIT-golang-2025-22866",
+	"modified": "2025-02-08T08:11:54.994992Z",
+	"published": "2025-02-08T07:13:28.235Z",
+	"aliases": [
+		"CVE-2025-22866",
+		"GO-2025-3447"
+	],
+	"details": "Due to the usage of a variable time instruction in the assembly implementation of an internal function, a small number of bits of secret scalars are leaked on the ppc64le architecture. Due to the way this function is used, we do not believe this leakage is enough to allow recovery of the private key when P-256 is used in any well known protocols.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Bitnami",
+				"name": "golang",
+				"purl": "pkg:bitnami/golang"
+			},
+			"ranges": [
+				{
+					"type": "SEMVER",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.22.12"
+						},
+						{
+							"introduced": "1.23.0-0"
+						},
+						{
+							"fixed": "1.23.6"
+						},
+						{
+							"introduced": "1.24.0-0"
+						},
+						{
+							"fixed": "1.24.0-rc.3"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/bitnami/vulndb/tree/main/data/golang/BIT-golang-2025-22866.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://go.dev/cl/643735"
+		},
+		{
+			"type": "WEB",
+			"url": "https://go.dev/issue/71383"
+		},
+		{
+			"type": "WEB",
+			"url": "https://groups.google.com/g/golang-announce/c/xU1ZCHUZw3k"
+		},
+		{
+			"type": "WEB",
+			"url": "https://pkg.go.dev/vuln/GO-2025-3447"
+		}
+	],
+	"database_specific": {
+		"cpes": [
+			"cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+		],
+		"severity": "Unknown"
+	}
+}
