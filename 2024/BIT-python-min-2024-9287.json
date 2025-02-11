@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-python-min-2024-9287",
-	"modified": "2025-02-01T07:43:18.500Z",
+	"modified": "2025-02-11T07:41:15.055Z",
 	"published": "2025-01-17T15:05:06.007Z",
 	"aliases": [
 		"BIT-python-2024-9287",
@@ -16,6 +16,12 @@
 				"name": "python-min",
 				"purl": "pkg:bitnami/python-min"
 			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+				}
+			],
 			"ranges": [
 				{
 					"type": "SEMVER",
@@ -100,6 +106,6 @@
 		"cpes": [
 			"cpe:2.3:a:python:python:*:*:*:*:*:*:*:*"
 		],
-		"severity": "Unknown"
+		"severity": "High"
 	}
 }

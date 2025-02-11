@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-virtualenv-2024-53899",
-	"modified": "2025-01-19T04:56:52.913372Z",
+	"modified": "2025-02-11T07:41:15.055Z",
 	"published": "2024-11-27T19:23:31.279Z",
 	"aliases": [
 		"CVE-2024-53899",
@@ -19,7 +19,7 @@
 			"severity": [
 				{
 					"type": "CVSS_V3",
-					"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+					"score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
 				}
 			],
 			"ranges": [
@@ -58,6 +58,6 @@
 		"cpes": [
 			"cpe:2.3:a:virtualenv:virtualenv:*:*:*:*:*:*:*:*"
 		],
-		"severity": "Critical"
+		"severity": "High"
 	}
 }

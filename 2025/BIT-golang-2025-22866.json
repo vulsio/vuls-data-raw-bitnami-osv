@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-golang-2025-22866",
-	"modified": "2025-02-08T08:11:54.994992Z",
+	"modified": "2025-02-11T07:41:15.055Z",
 	"published": "2025-02-08T07:13:28.235Z",
 	"aliases": [
 		"CVE-2025-22866",
@@ -15,6 +15,12 @@
 				"name": "golang",
 				"purl": "pkg:bitnami/golang"
 			},
+			"severity": [
+				{
+					"type": "CVSS_V3",
+					"score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+				}
+			],
 			"ranges": [
 				{
 					"type": "SEMVER",
@@ -67,6 +73,6 @@
 		"cpes": [
 			"cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
 		],
-		"severity": "Unknown"
+		"severity": "High"
 	}
 }
