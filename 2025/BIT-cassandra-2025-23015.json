@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-cassandra-2025-23015",
-	"modified": "2025-02-06T11:11:59.944701Z",
+	"modified": "2025-02-12T07:43:48.785Z",
 	"published": "2025-02-06T07:09:06.498Z",
 	"aliases": [
 		"CVE-2025-23015",
@@ -71,6 +71,10 @@
 		{
 			"type": "WEB",
 			"url": "http://www.openwall.com/lists/oss-security/2025/02/03/2"
+		},
+		{
+			"type": "WEB",
+			"url": "http://www.openwall.com/lists/oss-security/2025/02/11/1"
 		}
 	],
 	"database_specific": {
