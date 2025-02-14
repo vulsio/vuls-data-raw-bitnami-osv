@@ -1,12 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-min-2023-3824",
-	"modified": "2025-01-15T08:56:42.848729Z",
+	"modified": "2025-02-13T19:56:48.825300Z",
 	"published": "2025-01-14T19:20:33.095Z",
 	"aliases": [
 		"BIT-php-2023-3824",
-		"CVE-2023-3824",
-		"GHSA-jqcx-ccgc-xwhv"
+		"CVE-2023-3824"
 	],
 	"details": "In PHP version 8.0.* before 8.0.30,  8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE. ",
 	"affected": [

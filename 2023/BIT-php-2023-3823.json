@@ -1,12 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "BIT-php-2023-3823",
-	"modified": "2025-01-15T08:57:09.001173Z",
+	"modified": "2025-02-13T19:57:12.749672Z",
 	"published": "2024-03-06T11:01:30.975Z",
 	"aliases": [
 		"BIT-php-min-2023-3823",
-		"CVE-2023-3823",
-		"GHSA-3qrf-m4j2-pcrr"
+		"CVE-2023-3823"
 	],
 	"details": "In PHP versions 8.0.* before 8.0.30, 8.1.* before 8.1.22, and 8.2.* before 8.2.8 various XML functions rely on libxml global state to track configuration variables, like whether external entities are loaded. This state is assumed to be unchanged unless the user explicitly changes it by calling appropriate function. However, since the state is process-global, other modules - such as ImageMagick - may also use this library within the same process, and change that global state for their internal purposes, and leave it in a state where external entities loading is enabled. This can lead to the situation where external XML is parsed with external entities loaded, which can lead to disclosure of any local files accessible to PHP. This vulnerable state may persist in the same process across many requests, until the process is shut down. ",
 	"affected": [
